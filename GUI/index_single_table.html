@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GUI Image Viewer</title>
+  <script src="https://cdn.jsdelivr.net/npm/vue@2"></script>
+  <style>
+    #app {
+      text-align: center;
+    }
+    .image-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      margin-bottom: 20px;
+    }
+    img {
+      max-width: 80%;
+      max-height: 80vh;
+      margin-right: 10px;
+      margin-bottom: 10px;
+      cursor: pointer;
+    }
+    .preview-image {
+      max-width: 100px;
+      max-height: 100px;
+      margin-right: 5px;
+      margin-bottom: 5px;
+      cursor: pointer;
+    }
+    table {
+      margin: 0 auto;
+      border-collapse: collapse;
+      width: 30%;
+      margin-bottom: 20px;
+    }
+    th, td {
+      border: 1px solid #ddd;
+      padding: 8px;
+      text-align: left;
+    }
+    th {
+      background-color: #f2f2f2;
+    }
+    select{
+      margin: 0 auto;
+      border-collapse: collapse;
+      width: 30%;
+      margin-bottom: 20px;
+    }
+    #buttons {
+      margin: 0 auto;
+      margin-bottom: 40px;
+    }
+    
+  </style>
+</head>
+<body>
+  <div id="app">
+    <select name="Models" id="models">
+  <option value="Model1">Model1</option>
+  <option value="Model2">Model2</option>
+  <option value="Model3">Model3</option>
+  <option value="Model4">Model4</option>
+</select>
+    <div class="image-container">
+      <v-select
+  label="Select"
+  :items="['California', 'Colorado', 'Florida', 'Georgia', 'Texas', 'Wyoming']"
+></v-select>
+
+<!----v-select doesnt work here-->
+
+
+<div>
+        <h3>Preview Last</h3>
+        <img v-for="(image, index) in previewLastImages" :key="'last_'+index" :src="image" class="preview-image" @click="changeImage(index - (previewLastImages.length - 1))">
+      </div>
+      <div>
+
+        <h1>Image GUI</h1>
+        <img :src="currentImage" alt="Current Image" @click="nextImage"
+      width="500" height="400"
+      
+      
+   >
+    </img>
+     
+    </div>
+      <div> 
+        
+        <h3>Preview Next</h3>
+    <img v-for="(image, index) in previewNextImages" :key="'next_'+index" :src="image" class="preview-image" @click="changeImage(index)">
+      </div>
+    <div>
+    </div>
+  </div>
+    <table>
+      <thead>
+        <tr>
+          <th>Parameter</th>
+          <th>Wert</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr v-for="(value, parameter) in parameters" :key="parameter">
+          <td>{{ parameter }}</td>
+          <td>{{ value }}</td>
+        </tr>
+      </tbody>
+    </table>
+    <div> </div>
+    <div id="buttons">
+    <button  @click="prevImage">Previous</button>
+    <button  @click="nextImage">Next</button><br><br>
+    <button  @click="randomPictures">Random Pictures</button>
+
+    </div>
+    <div> </div>
+    <div><input type="text" v-model="suchbegriff" placeholder="Suchbegriff eingeben">
+      <button @click="loadImages">Filter anwenden</button>
+      <div class="bilder"></div>
+      <!-- images nicht korrekt aus directory ausgelesen -->
+      <!-- <h1>{{model_options}}</h1> -->
+  <script>
+    
+    new Vue({
+      el: '#app',
+      data: {
+        images: [
+          'images/id_1079930976350932993_2019-01-01.jpg',
+          'images/id_1079932515836514305_2019-01-01.jpg',
+          'images/id_1079985792578027520_2019-01-01.jpg',
+          'images/id_1080073461064781829_2019-01-01.jpg',
+          'images/id_1080106880805097474_2019-01-01.jpg',
+          'images/id_1080169037957599234_2019-01-01.jpg',
+          'images/id_1080199439992655872_2019-01-01.jpg',
+          'images/id_1080225778212626432_2019-01-01.jpg',
+          'images/id_1080228300264538117_2019-01-01.jpg',
+                ],
+        currentIndex: 0,
+        previewSize: 5,
+        parameters: {},
+        suchbegriff: '',
+        model_options: ["Model1"]
+        
+      },
+      mounted() {
+        this.loadFilteredImages();
+        this.loadParameters();
+      },
+      computed: {
+        currentImage() {
+          return this.images[this.currentIndex];
+        },
+        previewNextImages() {
+          const start = this.currentIndex + 1;
+          const end = Math.min(start + this.previewSize, this.images.length);
+          return this.images.slice(start, end);
+        },
+        previewLastImages() {
+          const start = Math.max(0, this.currentIndex - this.previewSize + 1);
+          const end = this.currentIndex;
+          return this.images.slice(start, end);
+        }
+      },
+      methods: {
+        nextImage() {
+          this.currentIndex = (this.currentIndex + 1) % this.images.length;
+          this.loadParameters();
+        },
+        prevImage() {
+          this.currentIndex = (this.currentIndex - 1 + this.images.length) % this.images.length;
+          this.loadParameters();
+        },
+        changeImage(index) {
+          this.currentIndex = (index + this.images.length) % this.images.length;
+          this.loadParameters();
+        },
+        async loadParameters() {
+          try {
+            const response = await fetch('/parameters/parameters.csv');
+            const data = await response.text();
+            const lines = data.split('\n');
+            const headers = lines[0].split(',');
+            const currentLine = lines[this.currentIndex + 1];
+            const values = currentLine.split(',');
+            const params = {};
+            headers.forEach((header, index) => {
+              params[header.trim()] = values[index].trim();
+            });
+            this.parameters = params;
+          } catch (error) {
+            console.error('Error loading parameters:', error);
+          }
+        },
+        loadImages() {
+      const imagesContext = require.context('./images', false, /\.(jpg|jpeg|png|gif)$/);
+      const directorypics = imagesContext.keys().map(image => imagesContext(image));
+      
+      this.images = directorypics;
+    },
+       randomPictures(){
+
+       },
+    
+        async loadFilteredImages() {
+          try {
+            const response = await fetch('/parameters/parameters.csv');
+            const data = await response.text();
+            const lines = data.split('\n');
+            const headers = lines[0].split(',');
+            const currentLine = lines[this.currentIndex + 1];
+            const values = currentLine.split(',');
+            const params = {};
+            headers.forEach((header, index) => {
+              params[header.trim()] = values[index].trim();
+            });
+            this.parameters = params;
+
+          } catch (error) {
+            console.error('Error loading parameters:', error);
+          }
+        }
+      }
+    });
+  </script>
+</body>
+</html>
