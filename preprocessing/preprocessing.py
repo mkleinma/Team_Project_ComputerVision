@@ -14,7 +14,8 @@ def preprocess_dataset(df, selected_columns=None):
     #         'withheld_copyright', 'withheld_countrycode', 'entities_cashtags'
     #         ]    -> was for complete dataset?
 
-    cols_to_strip = ['created_at', 'img_name', 'language', 'referenced_tweets', 'text', 'tweet_id']   
+    cols_to_strip = ['created_at', 'img_name', 'language', 'like_count', 'quote_count',
+       'referenced_tweets', 'retweet_count', 'text', 'tweet_id']   
 
     df[cols_to_strip] = df[cols_to_strip].astype('string')
     df[cols_to_strip] = df[cols_to_strip].replace(to_replace=r'^b\':?(.*)\'$', value=r'\1', regex=True)
@@ -24,11 +25,15 @@ def preprocess_dataset(df, selected_columns=None):
 
     # replace string NA to "real" missing value for further analysis
     df = df.replace(r'^NA$', np.nan, regex=True)
-    df.isna().sum()
 
     ## only keep selected_columns here
     if selected_columns is not None:
         df = df.loc[:, selected_columns]
+
+    df['like_count'] = df['like_count'].astype('int')
+    df['quote_count'] = df['quote_count'].astype('int')
+    df['retweet_count'] = df['retweet_count'].astype('int')
+    df['img_name'] = df['img_name'].apply(_strip_last)
 
     return df
 
@@ -64,3 +69,5 @@ def load_dataset(subset_name):
     df = pd.DataFrame(data_dict)
     return df
 
+def _strip_last(text):
+    return text[:-2]
