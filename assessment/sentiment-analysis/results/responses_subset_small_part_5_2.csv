@@ -1,0 +1,64 @@
+image,sentiment,confidence,explanation
+id_1195849611392380929_2019-11-16.jpg,prediction failed,0,No sentiment detected.
+id_1196853134582337538_2019-11-19.jpg,positive,0.8,The image shows a bee pollinating a flower. This is a positive image because it shows the beauty of nature and the importance of bees in the ecosystem.
+id_1210063958746501122_2019-12-26.jpg,prediction failed,0,No sentiment detected.
+id_1205155629750538241_2019-12-12.jpg,prediction failed,0,No sentiment detected.
+id_1195105213742485504_2019-11-14.jpg,prediction failed,0,No sentiment detected.
+id_1190744851886817280_2019-11-02.jpg,prediction failed,0,No sentiment detected.
+id_1191322218048999429_2019-11-04.jpg,prediction failed,0,No sentiment detected.
+id_1209656348184473603_2019-12-25.jpg,negative,0.8,The image shows a group of people with negative facial expressions.
+id_1190037026407669763_2019-10-31.jpg,positive,0.9,The image shows a couple dressed up as Frankenstein and his bride. They are standing in a romantic pose and the background is decorated with Halloween decorations. The overall tone of the image is positive and fun.
+id_1206190678713217026_2019-12-15.jpg,prediction failed,0,No sentiment detected.
+id_1191719329831669761_2019-11-05.jpg,prediction failed,0,No sentiment detected.
+id_1192512203011678208_2019-11-07.jpg,prediction failed,0,No sentiment detected.
+id_1195007510832394246_2019-11-14.jpg,prediction failed,0,No sentiment detected.
+id_1194337441714339841_2019-11-12.jpg,negative,0.9,"The image is about the author's frustration with the lack of progress in fighting climate change. The author is a firefighter and a greenie, and he volunteers to put in fuel reduction burns. However, he says that there are two factors that are stopping us from doing more burning: climate change and money. The author blames conservatives for both of these factors."
+id_1187729912364449792_2019-10-25.jpg,positive,0.9,"The man is smiling and holding a medal. He is standing in front of a castle. This is likely a positive event, such as the man receiving an award."
+id_1205248358245384192_2019-12-12.jpg,prediction failed,0,No sentiment detected.
+id_1190380168642207744_2019-11-01.jpg,prediction failed,0,No sentiment detected.
+id_1204812650988875778_2019-12-11.jpg,negative,0.9,"The image shows the Titanic sinking, with the text above the ship saying 'If we're sinking why are we hundreds of feet up in the air?' and the text below the ship saying 'Republicans on climate change'. This suggests that the Republicans are denying climate change, even though the evidence is clear that it is happening. The image is therefore negative in sentiment."
+id_1205181201104850944_2019-12-12.jpg,prediction failed,0,No sentiment detected.
+id_1201516371164594176_2019-12-02.jpg,positive,0.8,"The image is a call to action for a green new deal. The use of the word 'strike' suggests that the people behind the image are frustrated and want to take action. The image is likely to be seen by people who are already interested in the green new deal, so it is likely to be received positively."
+id_1207373539789041664_2019-12-18.jpg,prediction failed,0,No sentiment detected.
+id_1187967132643950599_2019-10-26.jpg,prediction failed,0,No sentiment detected.
+id_1201112956009762818_2019-12-01.jpg,prediction failed,0,No sentiment detected.
+id_1201932811516743682_2019-12-03.jpg,prediction failed,0,No sentiment detected.
+id_1188151675799785472_2019-10-26.jpg,prediction failed,0,No sentiment detected.
+id_1204141180054847488_2019-12-09.jpg,neutral,0.8,"The image is of Victoria Falls, a natural wonder of the world. The falls are a beautiful sight, and the image captures their grandeur. However, the image is not overtly positive or negative, as it does not express any particular emotion. Therefore, the sentiment of the image is neutral."
+id_1194034590735716353_2019-11-11.jpg,prediction failed,0,No sentiment detected.
+id_1208002872027299846_2019-12-20.jpg,negative,0.8,The article discusses a court case in which the Dutch government was ordered to reduce its greenhouse gas emissions. The court found that the government's failure to take action on climate change was a violation of human rights. The tone of the article is negative because it describes the government's actions as a failure and a violation of human rights.
+id_1187888093979987969_2019-10-26.jpg,prediction failed,0,No sentiment detected.
+id_1204162807551418369_2019-12-09.jpg,negative,0.9,"The image contains a lot of negative words, such as 'broke', 'fake news', 'blames', 'problems', 'shortcomings', 'spoiled', 'know-it-all', and 'slap'. The overall tone of the image is negative."
+id_1194759850422616064_2019-11-13.jpg,prediction failed,0,No sentiment detected.
+id_1201529100059303936_2019-12-02.jpg,prediction failed,0,No sentiment detected.
+id_1200400794216009730_2019-11-29.jpg,prediction failed,0,No sentiment detected.
+id_1205977357309239296_2019-12-14.jpg,prediction failed,0,No sentiment detected.
+id_1194611137104535563_2019-11-13.jpg,prediction failed,0,No sentiment detected.
+id_1207290178244661254_2019-12-18.jpg,positive,0.6,"The image shows a man looking at a waterfall. The man's arm is outstretched, which suggests that he is excited or impressed by the waterfall. The waterfall is also a positive image, as it is a natural beauty. The overall sentiment of the image is therefore positive."
+id_1194754662643060737_2019-11-13.jpg,positive,0.6,The image shows a large crowd of people in Bolivia protesting against the government. The people are holding signs and chanting slogans calling for the president to step down. The image is positive because it shows that the people of Bolivia are standing up for their rights and demanding change.
+id_1195355527137693697_2019-11-15.jpg,prediction failed,0,No sentiment detected.
+id_1197455828233539584_2019-11-21.jpg,negative,0.9,"The image is of a man looking at a dictionary definition of 'scotosis', which is a hardening of the mind against unwanted wisdom. The man's expression is one of disgust, which suggests that he is not open to new ideas."
+id_1193463515727716352_2019-11-10.jpg,prediction failed,0,No sentiment detected.
+id_1209429048520323078_2019-12-24.jpg,prediction failed,0,No sentiment detected.
+id_1201529666999324673_2019-12-02.jpg,negative,0.8,"The sign in the image expresses concern about the planet getting hotter, which is a negative sentiment."
+id_1205218503935946752_2019-12-12.jpg,prediction failed,0,No sentiment detected.
+id_1198214609490075648_2019-11-23.jpg,prediction failed,0,No sentiment detected.
+id_1190250404271009792_2019-11-01.jpg,prediction failed,0,No sentiment detected.
+id_1189613386704850945_2019-10-30.jpg,prediction failed,0,No sentiment detected.
+id_1207495774709268480_2019-12-19.jpg,prediction failed,0,No sentiment detected.
+id_1193590106587893761_2019-11-10.jpg,prediction failed,0,No sentiment detected.
+id_1204382810351558657_2019-12-10.jpg,negative,0.9,"The image is a political cartoon about climate change. The cartoonist is skeptical about the claims that climate change is a hoax, and he suggests that even if it is a hoax, it would still be beneficial to take action to create a better world. The cartoon is critical of the inaction of world leaders on climate change."
+id_1205126668249190401_2019-12-12.jpg,prediction failed,0,No sentiment detected.
+id_1205609113675272196_2019-12-13.jpg,prediction failed,0,No sentiment detected.
+id_1189164774795251713_2019-10-29.jpg,positive,0.6,"The image is about working for India. The text is written in a large, bold font and is surrounded by images of icebergs. The colors used in the image are blue and white, which are often associated with positive emotions. The overall tone of the image is positive and inspiring."
+id_1193670411227021312_2019-11-10.jpg,prediction failed,0,No sentiment detected.
+id_1195333580823703552_2019-11-15.jpg,prediction failed,0,No sentiment detected.
+id_1195929138487549953_2019-11-17.jpg,prediction failed,0,No sentiment detected.
+id_1206193009672495105_2019-12-15.jpg,prediction failed,0,No sentiment detected.
+id_1186636524579885058_2019-10-22.jpg,positive,0.8,The image shows a beautiful garden with a fountain and a statue of a woman made of flowers. The colors are vibrant and the suasana is peaceful. The image is likely to make people feel happy and relaxed.
+id_1187819913953665026_2019-10-25.jpg,positive,0.9,"The image shows a group of people, including Jane Fonda, smiling and laughing. This suggests that the image is positive."
+id_1204440218457260032_2019-12-10.jpg,negative,0.6,The image shows a group of people dressed in bee costumes blocking a road. The people are holding signs that say things like “Stop the bees” and “Bees are dying.” The image is likely a protest against the use of pesticides or other practices that are harmful to bees. 
+id_1191044649244381185_2019-11-03.jpg,prediction failed,0,No sentiment detected.
+id_1200322486296096771_2019-11-29.jpg,neutral,0.6,The image shows a group of people sitting at a conference table. The people are all looking at the speaker. The image is well-lit and the people are all wearing business suits. The overall tone of the image is neutral.
+id_1200067193058123777_2019-11-28.jpg,positive,0.9,"The image shows a dog wearing a lab coat and safety goggles, which are typically associated with positive and happy feelings."
+id_1188061317242019842_2019-10-26.jpg,positive,0.8,The image shows a beautiful sunset over a city. The colors in the sky are vibrant and the reflection of the sunset on the buildings is a nice touch. The people in the image are enjoying the sunset and the overall feeling of the image is positive.
