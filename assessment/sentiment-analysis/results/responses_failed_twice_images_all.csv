@@ -1,0 +1,6270 @@
+image,error,results
+id_1105854449824792576_2019-03-13.jpg,"The `response.text` quick accessor only works when the response contains a valid `Part`, but none was returned. Check the `candidate.safety_ratings` to see if the response was blocked.","[index: 0
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: LOW
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: MEDIUM
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+]"
+id_1106609202208956417_2019-03-15.jpg,Unterminated string starting at: line 1 column 62 (char 61),"[index: 0
+content {
+  parts {
+    text: "" {\""sentiment\"": \""negative\"", \""confidence\"": 0.9, \""explanation\"": \""The image is of two young women holding a sign that says \'""
+  }
+  role: ""model""
+}
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: MEDIUM
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+citation_metadata {
+}
+]"
+id_1106249686069866496_2019-03-14.jpg,Unterminated string starting at: line 1 column 62 (char 61),"[index: 0
+content {
+  parts {
+    text: "" {\""sentiment\"": \""negative\"", \""confidence\"": 0.8, \""explanation\"": \""The image is a political cartoon that is critical of protests. The cartoonist has drawn several people who are protesting about different issues, such as women\'s rights, gay rights, and climate change. The people in the cartoon""
+  }
+  role: ""model""
+}
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: MEDIUM
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+citation_metadata {
+}
+]"
+id_1096476267866742786_2019-02-15.jpg,Unterminated string starting at: line 1 column 62 (char 61),"[index: 0
+content {
+  parts {
+    text: "" {\""sentiment\"": \""negative\"", \""confidence\"": 0.9, \""explanation\"": \""The image shows a person being arrested by the police. The person""
+  }
+  role: ""model""
+}
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: MEDIUM
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+citation_metadata {
+}
+]"
+id_1100699099165265920_2019-02-27.jpg,"The `response.text` quick accessor only works when the response contains a valid `Part`, but none was returned. Check the `candidate.safety_ratings` to see if the response was blocked.","[index: 0
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: MEDIUM
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+]"
+id_1087172533525323776_2019-01-21.jpg,Unterminated string starting at: line 1 column 62 (char 61),"[index: 0
+content {
+  parts {
+    text: "" {\""sentiment\"": \""negative\"", \""confidence\"": 0.9, \""explanation\"": \""The image is a meme of Donald Trump with the text \'Days""
+  }
+  role: ""model""
+}
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: MEDIUM
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+citation_metadata {
+}
+]"
+id_1106601382067339264_2019-03-15.jpg,Unterminated string starting at: line 1 column 62 (char 61),"[index: 0
+content {
+  parts {
+    text: "" {\""sentiment\"": \""positive\"", \""confidence\"": 0.9, \""explanation\"": \""The image shows two meerkats standing on their hind legs and""
+  }
+  role: ""model""
+}
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: MEDIUM
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+citation_metadata {
+}
+]"
+id_1098836291117084672_2019-02-22.jpg,Unterminated string starting at: line 1 column 62 (char 61),"[index: 0
+content {
+  parts {
+    text: "" {\""sentiment\"": \""negative\"", \""confidence\"": 0.9, \""explanation\"": \""The image is a caricature of Elizabeth Warren, a politician known for""
+  }
+  role: ""model""
+}
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: MEDIUM
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+citation_metadata {
+}
+]"
+id_1096769963287891969_2019-02-16.jpg,"The `response.text` quick accessor only works when the response contains a valid `Part`, but none was returned. Check the `candidate.safety_ratings` to see if the response was blocked.","[index: 0
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: MEDIUM
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+]"
+id_1097875389471285248_2019-02-19.jpg,503 The model is overloaded. Please try again later.,"[index: 0
+content {
+  parts {
+    text: "" {\""sentiment\"": \""negative\"", \""confidence\"": 1.0, \""explanation\"": \""The image is of a sign that lists four national emergencies: climate""
+  }
+  role: ""model""
+}
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: MEDIUM
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+citation_metadata {
+}
+]"
+id_1094594345704083456_2019-02-10.jpg,Unterminated string starting at: line 1 column 62 (char 61),"[index: 0
+content {
+  parts {
+    text: "" {\""sentiment\"": \""negative\"", \""confidence\"": 0.9, \""explanation\"": \""The image is a quote that says \'You know, there was""
+  }
+  role: ""model""
+}
+finish_reason: RECITATION
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+citation_metadata {
+}
+]"
+id_1099388874286084096_2019-02-23.jpg,503 The model is overloaded. Please try again later.,"[index: 0
+content {
+  parts {
+    text: "" {\""sentiment\"": \""negative\"", \""confidence\"": 0.9, \""explanation\"": \""The image is a meme that uses sarcasm to criticize the idea that""
+  }
+  role: ""model""
+}
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: MEDIUM
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+citation_metadata {
+}
+]"
+id_1085806407566290944_2019-01-17.jpg,"The `response.text` quick accessor only works when the response contains a valid `Part`, but none was returned. Check the `candidate.safety_ratings` to see if the response was blocked.","[index: 0
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: MEDIUM
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+]"
+id_1100519419745263616_2019-02-26.jpg,"The `response.text` quick accessor only works when the response contains a valid `Part`, but none was returned. Check the `candidate.safety_ratings` to see if the response was blocked.","[index: 0
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: MEDIUM
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: LOW
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+]"
+id_1105938221056184320_2019-03-13.jpg,Unterminated string starting at: line 1 column 62 (char 61),"[index: 0
+content {
+  parts {
+    text: "" {\""sentiment\"": \""negative\"", \""confidence\"": 0.8, \""explanation\"": \""The image is about a student protest. The headline is negative and""
+  }
+  role: ""model""
+}
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: LOW
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: MEDIUM
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+citation_metadata {
+}
+]"
+id_1103750649999777792_2019-03-07.jpg,Unterminated string starting at: line 1 column 62 (char 61),"[index: 0
+content {
+  parts {
+    text: "" {\""sentiment\"": \""negative\"", \""confidence\"": 0.9, \""explanation\"": \""The image is a political cartoon that depicts Donald Trump as a knight""
+  }
+  role: ""model""
+}
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: LOW
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: MEDIUM
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: LOW
+}
+citation_metadata {
+}
+]"
+id_1091374844288000000_2019-02-01.jpg,"The `response.text` quick accessor only works when the response contains a valid `Part`, but none was returned. Check the `candidate.safety_ratings` to see if the response was blocked.","[index: 0
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: HIGH
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+]"
+id_1093441978581307392_2019-02-07.jpg,Unterminated string starting at: line 1 column 62 (char 61),"[index: 0
+content {
+  parts {
+    text: "" {\""sentiment\"": \""negative\"", \""confidence\"": 0.9, \""explanation\"": \""The image is about the special report on global warming of 1""
+  }
+  role: ""model""
+}
+finish_reason: RECITATION
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+citation_metadata {
+}
+]"
+id_1100956196964651008_2019-02-28.jpg,Unterminated string starting at: line 1 column 62 (char 61),"[index: 0
+content {
+  parts {
+    text: "" {\""sentiment\"": \""negative\"", \""confidence\"": 0.8, \""explanation\"": \""The image is a meme which shows a picture of a man standing in front of a board with the words \'Science is a liar sometimes\' written at the top. The board also has pictures of Aristotle, Galileo, and Newton""
+  }
+  role: ""model""
+}
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: MEDIUM
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+citation_metadata {
+}
+]"
+id_1088767194429878272_2019-01-25.jpg,Unterminated string starting at: line 1 column 62 (char 61),"[index: 0
+content {
+  parts {
+    text: "" {\""sentiment\"": \""negative\"", \""confidence\"": 0.9, \""explanation\"": \""The image shows a group of people who are likely world leaders or other elites, all smiling and laughing. The text above them reads: \""Elite who flew to Davos on 1,500 private jets discuss climate change""
+  }
+  role: ""model""
+}
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: MEDIUM
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+citation_metadata {
+}
+]"
+id_1096402197649260545_2019-02-15.jpg,Unterminated string starting at: line 1 column 62 (char 61),"[index: 0
+content {
+  parts {
+    text: "" {\""sentiment\"": \""negative\"", \""confidence\"": 0.8, \""explanation\"": \""The image is of a man dressed in a caveman costume holding""
+  }
+  role: ""model""
+}
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: MEDIUM
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+citation_metadata {
+}
+]"
+id_1096472357252804609_2019-02-15.jpg,"The `response.text` quick accessor only works when the response contains a valid `Part`, but none was returned. Check the `candidate.safety_ratings` to see if the response was blocked.","[index: 0
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: LOW
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: MEDIUM
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+]"
+id_1106247081172168704_2019-03-14.jpg,Unterminated string starting at: line 1 column 62 (char 61),"[index: 0
+content {
+  parts {
+    text: "" {\""sentiment\"": \""negative\"", \""confidence\"": 0.9, \""explanation\"": \""The image is of a news headline that reads \'Beto Pledges Platform of 100% White Privilege\'. The sentiment of the image is negative because it is a headline about a politician pledging to support a policy""
+  }
+  role: ""model""
+}
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: LOW
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: MEDIUM
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+citation_metadata {
+}
+]"
+id_1090303533872758786_2019-01-29.jpg,Unterminated string starting at: line 1 column 61 (char 60),"[index: 0
+content {
+  parts {
+    text: "" {\""sentiment\"": \""neutral\"", \""confidence\"": 0.8, \""explanation\"": \""The image shows a woman walking away from the camera in a rocky""
+  }
+  role: ""model""
+}
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: MEDIUM
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+citation_metadata {
+}
+]"
+id_1116694399512133634_2019-04-12.jpg,Unterminated string starting at: line 1 column 62 (char 61),"[index: 0
+content {
+  parts {
+    text: "" {\""sentiment\"": \""negative\"", \""confidence\"": 0.8, \""explanation\"": \""The image is of a protest about climate change. The sign in""
+  }
+  role: ""model""
+}
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: LOW
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: MEDIUM
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+citation_metadata {
+}
+]"
+id_1124630247650013185_2019-05-04.jpg,"The `response.text` quick accessor only works when the response contains a valid `Part`, but none was returned. Check the `candidate.safety_ratings` to see if the response was blocked.","[index: 0
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: MEDIUM
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+]"
+id_1121740122641321985_2019-04-26.jpg,503 The model is overloaded. Please try again later.,"[index: 0
+content {
+  parts {
+    text: "" {\""sentiment\"": \""negative\"", \""confidence\"": 0.8, \""explanation\"": \""The image is a quote from Robert Danton, a Harvard professor""
+  }
+  role: ""model""
+}
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: MEDIUM
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+citation_metadata {
+  citation_sources {
+    start_index: 147
+    end_index: 277
+    uri: ""https://www.dawn.com/news/1456573""
+    license_: """"
+  }
+}
+]"
+id_1124296889699119105_2019-05-03.jpg,Unterminated string starting at: line 1 column 62 (char 61),"[index: 0
+content {
+  parts {
+    text: "" {\""sentiment\"": \""negative\"", \""confidence\"": 0.8, \""explanation\"": \""The image shows a politician with a halo over his head, suggesting that he is a god-like figure. However, the politician is depicted with a stern expression and is holding out his hand in a rejecting gesture, suggesting that""
+  }
+  role: ""model""
+}
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: MEDIUM
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+citation_metadata {
+}
+]"
+id_1115954476828037121_2019-04-10.jpg,"The `response.text` quick accessor only works when the response contains a valid `Part`, but none was returned. Check the `candidate.safety_ratings` to see if the response was blocked.","[index: 0
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: LOW
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: MEDIUM
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+]"
+id_1135520254589919235_2019-06-03.jpg,"The `response.text` quick accessor only works when the response contains a valid `Part`, but none was returned. Check the `candidate.safety_ratings` to see if the response was blocked.","[index: 0
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: MEDIUM
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+]"
+id_1123521706688176128_2019-05-01.jpg,"The `response.text` quick accessor only works when the response contains a valid `Part`, but none was returned. Check the `candidate.safety_ratings` to see if the response was blocked.","[index: 0
+finish_reason: OTHER
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: LOW
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: LOW
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+]"
+id_1135562119825543168_2019-06-03.jpg,Unterminated string starting at: line 1 column 62 (char 61),"[index: 0
+content {
+  parts {
+    text: "" {\""sentiment\"": \""negative\"", \""confidence\"": 0.9, \""explanation\"": \""The image shows the words \'oi Trump\' written in a field""
+  }
+  role: ""model""
+}
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: HIGH
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: LOW
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+citation_metadata {
+}
+]"
+id_1129734283118219266_2019-05-18.jpg,Unterminated string starting at: line 1 column 62 (char 61),"[index: 0
+content {
+  parts {
+    text: "" {\""sentiment\"": \""negative\"", \""confidence\"": 0.9, \""explanation\"": \""The image is of Squidward Tentacles from the popular cartoon show""
+  }
+  role: ""model""
+}
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: MEDIUM
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+citation_metadata {
+}
+]"
+id_1122531067192336384_2019-04-28.jpg,Unterminated string starting at: line 1 column 62 (char 61),"[index: 0
+content {
+  parts {
+    text: "" {\""sentiment\"": \""negative\"", \""confidence\"": 0.9, \""explanation\"": \""The image is a meme that jokes about the two sons of Donald""
+  }
+  role: ""model""
+}
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: MEDIUM
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: HIGH
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+citation_metadata {
+}
+]"
+id_1128684136414294016_2019-05-15.jpg,Unterminated string starting at: line 1 column 62 (char 61),"[index: 0
+content {
+  parts {
+    text: "" {\""sentiment\"": \""negative\"", \""confidence\"": 0.9, \""explanation\"": \""The image is about 25 men who voted to ban abortion""
+  }
+  role: ""model""
+}
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: LOW
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: MEDIUM
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+citation_metadata {
+}
+]"
+id_1120456901047857153_2019-04-22.jpg,Unterminated string starting at: line 1 column 62 (char 61),"[index: 0
+content {
+  parts {
+    text: "" {\""sentiment\"": \""negative\"", \""confidence\"": 0.6, \""explanation\"": \""The image shows a group of people protesting on top of a globe""
+  }
+  role: ""model""
+}
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: LOW
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: MEDIUM
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+citation_metadata {
+}
+]"
+id_1136636158362996736_2019-06-06.jpg,"The `response.text` quick accessor only works when the response contains a valid `Part`, but none was returned. Check the `candidate.safety_ratings` to see if the response was blocked.","[index: 0
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: MEDIUM
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+]"
+id_1135872712969216003_2019-06-04.jpg,"The `response.text` quick accessor only works when the response contains a valid `Part`, but none was returned. Check the `candidate.safety_ratings` to see if the response was blocked.","[index: 0
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: MEDIUM
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+]"
+id_1116694276723888128_2019-04-12.jpg,Unterminated string starting at: line 1 column 62 (char 61),"[index: 0
+content {
+  parts {
+    text: "" {\""sentiment\"": \""negative\"", \""confidence\"": 0.8, \""explanation\"": \""The image shows a protest about climate change. The protesters are holding""
+  }
+  role: ""model""
+}
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: MEDIUM
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+citation_metadata {
+}
+]"
+id_1119275923646423043_2019-04-19.jpg,Unterminated string starting at: line 1 column 62 (char 61),"[index: 0
+content {
+  parts {
+    text: "" {\""sentiment\"": \""positive\"", \""confidence\"": 0.7, \""explanation\"": \""The image is of a woman holding a sign that says \'Say""
+  }
+  role: ""model""
+}
+finish_reason: RECITATION
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+citation_metadata {
+}
+]"
+id_1119187075935420417_2019-04-19.jpg,Unterminated string starting at: line 1 column 62 (char 61),"[index: 0
+content {
+  parts {
+    text: "" {\""sentiment\"": \""negative\"", \""confidence\"": 0.9, \""explanation\"": \""The image shows a person being arrested by the police. The person""
+  }
+  role: ""model""
+}
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: MEDIUM
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+citation_metadata {
+}
+]"
+id_1127947669803085825_2019-05-13.jpg,Unterminated string starting at: line 1 column 62 (char 61),"[index: 0
+content {
+  parts {
+    text: "" {\""sentiment\"": \""negative\"", \""confidence\"": 0.9, \""explanation\"": \""The tweet is about the GOP taking dry humor and sarcasm literally.""
+  }
+  role: ""model""
+}
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: MEDIUM
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+citation_metadata {
+}
+]"
+id_1162127258145837056_2019-08-15.jpg,503 The model is overloaded. Please try again later.,"[index: 0
+content {
+  parts {
+    text: "" {\""sentiment\"": \""negative\"", \""confidence\"": 0.9, \""explanation\"": \""The image is a poster of Greta Thunberg, a climate change""
+  }
+  role: ""model""
+}
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: MEDIUM
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: LOW
+}
+citation_metadata {
+}
+]"
+id_1156640914787512321_2019-07-31.jpg,503 The model is overloaded. Please try again later.,"[index: 0
+content {
+  parts {
+    text: "" {\""sentiment\"": \""negative\"", \""confidence\"": 0.9, \""explanation\"": \""The image is about the US Chamber of Commerce and their stance on""
+  }
+  role: ""model""
+}
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: MEDIUM
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+citation_metadata {
+}
+]"
+id_1150255782379892736_2019-07-14.jpg,Unterminated string starting at: line 1 column 62 (char 61),"[index: 0
+content {
+  parts {
+    text: "" {\""sentiment\"": \""negative\"", \""confidence\"": 0.9, \""explanation\"": \""The tweet is sarcastic and makes fun of the idea that the Earth""
+  }
+  role: ""model""
+}
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: LOW
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: MEDIUM
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+citation_metadata {
+}
+]"
+id_1106258091052548096_2019-03-14.jpg,Unterminated string starting at: line 1 column 62 (char 61),"[index: 0
+content {
+  parts {
+    text: "" {\""sentiment\"": \""negative\"", \""confidence\"": 0.9, \""explanation\"": \""The image is about a protest against a carbon tax on students.""
+  }
+  role: ""model""
+}
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: MEDIUM
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+citation_metadata {
+}
+]"
+id_1095438922149216261_2019-02-12.jpg,"The `response.text` quick accessor only works when the response contains a valid `Part`, but none was returned. Check the `candidate.safety_ratings` to see if the response was blocked.","[index: 0
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: LOW
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: MEDIUM
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+]"
+id_1107120769337716736_2019-03-17.jpg,"The `response.text` quick accessor only works when the response contains a valid `Part`, but none was returned. Check the `candidate.safety_ratings` to see if the response was blocked.","[index: 0
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: MEDIUM
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+]"
+id_1082673367982002177_2019-01-08.jpg,Unterminated string starting at: line 1 column 62 (char 61),"[index: 0
+content {
+  parts {
+    text: "" {\""sentiment\"": \""negative\"", \""confidence\"": 0.9, \""explanation\"": \""The image is about how facts are not important and what really matters""
+  }
+  role: ""model""
+}
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: MEDIUM
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+citation_metadata {
+}
+]"
+id_1102784853781692417_2019-03-05.jpg,Unterminated string starting at: line 1 column 62 (char 61),"[index: 0
+content {
+  parts {
+    text: "" {\""sentiment\"": \""negative\"", \""confidence\"": 0.8, \""explanation\"": \""The image shows a news report about an opposition MP being attacked outside""
+  }
+  role: ""model""
+}
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: MEDIUM
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+citation_metadata {
+}
+]"
+id_1101565050714836994_2019-03-01.jpg,Unterminated string starting at: line 1 column 62 (char 61),"[index: 0
+content {
+  parts {
+    text: "" {\""sentiment\"": \""negative\"", \""confidence\"": 0.8, \""explanation\"": \""The article is about how climate change is being used as a political""
+  }
+  role: ""model""
+}
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: MEDIUM
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+citation_metadata {
+}
+]"
+id_1099150134351294464_2019-02-23.jpg,Unterminated string starting at: line 1 column 62 (char 61),"[index: 0
+content {
+  parts {
+    text: "" {\""sentiment\"": \""negative\"", \""confidence\"": 0.9, \""explanation\"": \""The tweet is a criticism of Alexandria Ocasio-Cortez and""
+  }
+  role: ""model""
+}
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: MEDIUM
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+citation_metadata {
+}
+]"
+id_1088082018104197123_2019-01-23.jpg,Unterminated string starting at: line 1 column 62 (char 61),"[index: 0
+content {
+  parts {
+    text: "" {\""sentiment\"": \""negative\"", \""confidence\"": 0.9, \""explanation\"": \""The image is a screenshot of a tweet in which the author is""
+  }
+  role: ""model""
+}
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: MEDIUM
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+citation_metadata {
+}
+]"
+id_1091659736171376640_2019-02-02.jpg,Invalid \escape: line 1 column 126 (char 125),"[index: 0
+content {
+  parts {
+    text: "" {\""sentiment\"": \""positive\"", \""confidence\"": 0.8, \""explanation\"": \""The image is about a group of people holding up signs that say \\\""We are not powerless against climate change\\\"". The people in the image are smiling and look hopeful. The image is likely meant to inspire people to take action against climate change.\""}""
+  }
+  role: ""model""
+}
+finish_reason: STOP
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+citation_metadata {
+}
+]"
+id_1098563554465202176_2019-02-21.jpg,"The `response.text` quick accessor only works when the response contains a valid `Part`, but none was returned. Check the `candidate.safety_ratings` to see if the response was blocked.","[index: 0
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: MEDIUM
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+]"
+id_1105185033642524673_2019-03-11.jpg,"The `response.text` quick accessor only works when the response contains a valid `Part`, but none was returned. Check the `candidate.safety_ratings` to see if the response was blocked.","[index: 0
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: MEDIUM
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+]"
+id_1102585113181868032_2019-03-04.jpg,"The `response.text` quick accessor only works when the response contains a valid `Part`, but none was returned. Check the `candidate.safety_ratings` to see if the response was blocked.","[index: 0
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: MEDIUM
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: LOW
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+]"
+id_1093947674624184321_2019-02-08.jpg,Unterminated string starting at: line 1 column 62 (char 61),"[index: 0
+content {
+  parts {
+    text: "" {\""sentiment\"": \""negative\"", \""confidence\"": 0.9, \""explanation\"": \""The image is a skier with the text \'WTF FIS?\' and \'DENY THE DENIER!\' on it. This is likely a reference to the FIS, or International Ski Federation, and their handling of climate change. The""
+  }
+  role: ""model""
+}
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: MEDIUM
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+citation_metadata {
+}
+]"
+id_1124052609243996160_2019-05-02.jpg,Unterminated string starting at: line 1 column 62 (char 61),"[index: 0
+content {
+  parts {
+    text: "" {\""sentiment\"": \""negative\"", \""confidence\"": 0.8, \""explanation\"": \""The image shows a group of people holding signs and protesting against climate""
+  }
+  role: ""model""
+}
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: MEDIUM
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+citation_metadata {
+}
+]"
+id_1118148163158913024_2019-04-16.jpg,Unterminated string starting at: line 1 column 62 (char 61),"[index: 0
+content {
+  parts {
+    text: "" {\""sentiment\"": \""negative\"", \""confidence\"": 0.8, \""explanation\"": \""The image shows a man being arrested by the police. The man is likely to be a protester, as he is wearing a yellow vest and a scarf around his neck, which are common symbols of protest. The police are likely""
+  }
+  role: ""model""
+}
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: MEDIUM
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+citation_metadata {
+}
+]"
+id_1110604991180374016_2019-03-26.jpg,"The `response.text` quick accessor only works when the response contains a valid `Part`, but none was returned. Check the `candidate.safety_ratings` to see if the response was blocked.","[index: 0
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: MEDIUM
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+]"
+id_1128664119815569408_2019-05-15.jpg,Unterminated string starting at: line 1 column 62 (char 61),"[index: 0
+content {
+  parts {
+    text: "" {\""sentiment\"": \""negative\"", \""confidence\"": 0.9, \""explanation\"": \""The image shows a white man holding a tiki torch and a sign with a black circle with a red diagonal line through it, which is a symbol of white supremacy. He is standing next to a black man holding a sign that""
+  }
+  role: ""model""
+}
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: MEDIUM
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: MEDIUM
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+citation_metadata {
+}
+]"
+id_1131247633635434497_2019-05-22.jpg,Unterminated string starting at: line 1 column 62 (char 61),"[index: 0
+content {
+  parts {
+    text: "" {\""sentiment\"": \""negative\"", \""confidence\"": 0.9, \""explanation\"": \""The image is a poll asking which is a bigger threat to humanity""
+  }
+  role: ""model""
+}
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: LOW
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: MEDIUM
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+citation_metadata {
+}
+]"
+id_1127181817180614656_2019-05-11.jpg,Unterminated string starting at: line 1 column 62 (char 61),"[index: 0
+content {
+  parts {
+    text: "" {\""sentiment\"": \""negative\"", \""confidence\"": 0.9, \""explanation\"": \""The image is a collection of photos of celebrities and politicians with text""
+  }
+  role: ""model""
+}
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: MEDIUM
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+citation_metadata {
+}
+]"
+id_1133313167105200129_2019-05-28.jpg,Unterminated string starting at: line 1 column 62 (char 61),"[index: 0
+content {
+  parts {
+    text: "" {\""sentiment\"": \""negative\"", \""confidence\"": 0.8, \""explanation\"": \""The image shows a woman standing in front of a large pile of""
+  }
+  role: ""model""
+}
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: MEDIUM
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+citation_metadata {
+}
+]"
+id_1135245086063808514_2019-06-02.jpg,Unterminated string starting at: line 1 column 62 (char 61),"[index: 0
+content {
+  parts {
+    text: "" {\""sentiment\"": \""negative\"", \""confidence\"": 0.9, \""explanation\"": \""The image shows the words \'OK Trump\' mowed into a""
+  }
+  role: ""model""
+}
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: HIGH
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: LOW
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+citation_metadata {
+}
+]"
+id_1133900487474917376_2019-05-30.jpg,Unterminated string starting at: line 1 column 62 (char 61),"[index: 0
+content {
+  parts {
+    text: "" {\""sentiment\"": \""negative\"", \""confidence\"": 0.9, \""explanation\"": \""The image shows a balance scale with a group of scientists on one side and a single climate denier on the other. The caption above the scientists says \'Virtually every scientist in the world\' and the caption above the climate""
+  }
+  role: ""model""
+}
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: MEDIUM
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+citation_metadata {
+}
+]"
+id_1118020198265761792_2019-04-16.jpg,Unterminated string starting at: line 1 column 62 (char 61),"[index: 0
+content {
+  parts {
+    text: "" {\""sentiment\"": \""negative\"", \""confidence\"": 0.6, \""explanation\"": \""The image shows a group of people protesting against climate change. The""
+  }
+  role: ""model""
+}
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: MEDIUM
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+citation_metadata {
+}
+]"
+id_1163457126787878912_2019-08-19.jpg,"The `response.text` quick accessor only works when the response contains a valid `Part`, but none was returned. Check the `candidate.safety_ratings` to see if the response was blocked.","[index: 0
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: LOW
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: HIGH
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+]"
+id_1156819162779529216_2019-08-01.jpg,503 The model is overloaded. Please try again later.,"[index: 0
+content {
+  parts {
+    text: "" {\""sentiment\"": \""negative\"", \""confidence\"": 0.9, \""explanation\"": \""The image is about Greta Thunberg and it is written in a""
+  }
+  role: ""model""
+}
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: MEDIUM
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+citation_metadata {
+}
+]"
+id_1158362742308376577_2019-08-05.jpg,Unterminated string starting at: line 1 column 62 (char 61),"[index: 0
+content {
+  parts {
+    text: "" {\""sentiment\"": \""negative\"", \""confidence\"": 0.9, \""explanation\"": \""The text contains phrases like \'walking around in a T-shirt""
+  }
+  role: ""model""
+}
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: LOW
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: LOW
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: MEDIUM
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+citation_metadata {
+}
+]"
+id_1163851874921005057_2019-08-20.jpg,"The `response.text` quick accessor only works when the response contains a valid `Part`, but none was returned. Check the `candidate.safety_ratings` to see if the response was blocked.","[index: 0
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: MEDIUM
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+]"
+id_1149650065683705856_2019-07-12.jpg,Unterminated string starting at: line 1 column 62 (char 61),"[index: 0
+content {
+  parts {
+    text: "" {\""sentiment\"": \""negative\"", \""confidence\"": 0.8, \""explanation\"": \""The image contains a quote that expresses a negative view of humanity,""
+  }
+  role: ""model""
+}
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: MEDIUM
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: HIGH
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+citation_metadata {
+}
+]"
+id_1145430824780738565_2019-06-30.jpg,Unterminated string starting at: line 1 column 62 (char 61),"[index: 0
+content {
+  parts {
+    text: "" {\""sentiment\"": \""negative\"", \""confidence\"": 0.9, \""explanation\"": \""The image is a photo of a woman with a piece of poop""
+  }
+  role: ""model""
+}
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: LOW
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: MEDIUM
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+citation_metadata {
+}
+]"
+id_1144831460475457536_2019-06-29.jpg,"The `response.text` quick accessor only works when the response contains a valid `Part`, but none was returned. Check the `candidate.safety_ratings` to see if the response was blocked.","[index: 0
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: MEDIUM
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+]"
+id_1164159904363536384_2019-08-21.jpg,Unterminated string starting at: line 1 column 62 (char 61),"[index: 0
+content {
+  parts {
+    text: "" {\""sentiment\"": \""negative\"", \""confidence\"": 0.9, \""explanation\"": \""The image is a political cartoon of Donald Trump. He is depicted as a large, orange man with a small mouth. He is wearing a t-shirt that says *Save the White Males*. The text above his head says""
+  }
+  role: ""model""
+}
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: LOW
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: MEDIUM
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+citation_metadata {
+}
+]"
+id_1157699684057649152_2019-08-03.jpg,Unterminated string starting at: line 1 column 62 (char 61),"[index: 0
+content {
+  parts {
+    text: "" {\""sentiment\"": \""negative\"", \""confidence\"": 0.8, \""explanation\"": \""The image is about Greta Thunberg and it is mostly negative.""
+  }
+  role: ""model""
+}
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: MEDIUM
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+citation_metadata {
+}
+]"
+id_1155190148541423617_2019-07-27.jpg,Unterminated string starting at: line 1 column 62 (char 61),"[index: 0
+content {
+  parts {
+    text: "" {\""sentiment\"": \""negative\"", \""confidence\"": 0.9, \""explanation\"": \""The image is about pollution and the sentiment is negative because it says""
+  }
+  role: ""model""
+}
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: MEDIUM
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+citation_metadata {
+}
+]"
+id_1145679623822426118_2019-07-01.jpg,"The `response.text` quick accessor only works when the response contains a valid `Part`, but none was returned. Check the `candidate.safety_ratings` to see if the response was blocked.","[index: 0
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: MEDIUM
+}
+]"
+id_1162127258145837056_2019-08-15.jpg,Unterminated string starting at: line 1 column 62 (char 61),"[index: 0
+content {
+  parts {
+    text: "" {\""sentiment\"": \""negative\"", \""confidence\"": 0.9, \""explanation\"": \""The image is a poster of Greta Thunberg, a climate change""
+  }
+  role: ""model""
+}
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: MEDIUM
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+citation_metadata {
+}
+]"
+id_1159964275856879617_2019-08-09.jpg,Unterminated string starting at: line 1 column 62 (char 61),"[index: 0
+content {
+  parts {
+    text: "" {\""sentiment\"": \""negative\"", \""confidence\"": 0.8, \""explanation\"": \""The image shows a man shooting an iceberg. This is a negative""
+  }
+  role: ""model""
+}
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: MEDIUM
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: LOW
+}
+citation_metadata {
+}
+]"
+id_1156640914787512321_2019-07-31.jpg,Unterminated string starting at: line 1 column 62 (char 61),"[index: 0
+content {
+  parts {
+    text: "" {\""sentiment\"": \""negative\"", \""confidence\"": 0.9, \""explanation\"": \""The image is about the US Chamber of Commerce and it says that""
+  }
+  role: ""model""
+}
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: MEDIUM
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+citation_metadata {
+}
+]"
+id_1150255782379892736_2019-07-14.jpg,Unterminated string starting at: line 1 column 62 (char 61),"[index: 0
+content {
+  parts {
+    text: "" {\""sentiment\"": \""negative\"", \""confidence\"": 0.9, \""explanation\"": \""The tweet is sarcastic and expresses disbelief at the idea that the Earth""
+  }
+  role: ""model""
+}
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: LOW
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: MEDIUM
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+citation_metadata {
+}
+]"
+id_1100513685494263808_2019-02-26.jpg,"The `response.text` quick accessor only works when the response contains a valid `Part`, but none was returned. Check the `candidate.safety_ratings` to see if the response was blocked.","[index: 0
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: LOW
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: MEDIUM
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+]"
+id_1095425185992400896_2019-02-12.jpg,Unterminated string starting at: line 1 column 62 (char 61),"[index: 0
+content {
+  parts {
+    text: "" {\""sentiment\"": \""negative\"", \""confidence\"": 0.8, \""explanation\"": \""The image is of a girl holding a sign that says \'Why should we go to school if you will not listen to the educated\'. The girl\'s facial expression is serious and she is looking directly at the camera. The""
+  }
+  role: ""model""
+}
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: LOW
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: MEDIUM
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+citation_metadata {
+}
+]"
+id_1105981147077591040_2019-03-13.jpg,"The `response.text` quick accessor only works when the response contains a valid `Part`, but none was returned. Check the `candidate.safety_ratings` to see if the response was blocked.","[index: 0
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: MEDIUM
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+]"
+id_1098698012933718021_2019-02-21.jpg,Invalid \escape: line 1 column 228 (char 227),"[index: 0
+content {
+  parts {
+    text: "" {\""sentiment\"": \""negative\"", \""confidence\"": 0.9, \""explanation\"": \""The image shows a stormy scene with the White House in the middle. The White House is flooded, and President Trump is standing on the roof, holding a sign that says \\\""Finish the Wall\\\"". The image is likely a""
+  }
+  role: ""model""
+}
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: MEDIUM
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+citation_metadata {
+}
+]"
+id_1105870144478183424_2019-03-13.jpg,"The `response.text` quick accessor only works when the response contains a valid `Part`, but none was returned. Check the `candidate.safety_ratings` to see if the response was blocked.","[index: 0
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: MEDIUM
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: MEDIUM
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+]"
+id_1116698480708399106_2019-04-12.jpg,Unterminated string starting at: line 1 column 62 (char 61),"[index: 0
+content {
+  parts {
+    text: "" {\""sentiment\"": \""positive\"", \""confidence\"": 0.9, \""explanation\"": \""The image is a young woman holding a sign that says, *""
+  }
+  role: ""model""
+}
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: MEDIUM
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+citation_metadata {
+}
+]"
+id_1129700071799427078_2019-05-18.jpg,503 The model is overloaded. Please try again later.,"[index: 0
+content {
+  parts {
+    text: "" {\""sentiment\"": \""negative\"", \""confidence\"": 0.8, \""explanation\"": \""The image shows a group of people lying on the ground in protest""
+  }
+  role: ""model""
+}
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: MEDIUM
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+citation_metadata {
+}
+]"
+id_1133392257548267520_2019-05-28.jpg,503 The model is overloaded. Please try again later.,"[index: 0
+content {
+  parts {
+    text: "" {\""sentiment\"": \""negative\"", \""confidence\"": 0.9, \""explanation\"": \""The image shows two men, Arnold Schwarzenegger and Donald Trump. Schwarzenegger""
+  }
+  role: ""model""
+}
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: MEDIUM
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+citation_metadata {
+}
+]"
+id_1115932566127820800_2019-04-10.jpg,Unterminated string starting at: line 1 column 62 (char 61),"[index: 0
+content {
+  parts {
+    text: "" {\""sentiment\"": \""negative\"", \""confidence\"": 0.9, \""explanation\"": \""The image is a meme that uses Drake\'s facial expression and movements to convey two opposing viewpoints. The first panel of the meme shows Drake gesturing with his hand while looking away, suggesting he does not endorse the idea of""
+  }
+  role: ""model""
+}
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: MEDIUM
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: MEDIUM
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: MEDIUM
+}
+citation_metadata {
+}
+]"
+id_1123919838550941698_2019-05-02.jpg,503 The model is overloaded. Please try again later.,"[index: 0
+content {
+  parts {
+    text: "" {\""sentiment\"": \""negative\"", \""confidence\"": 1, \""explanation\"": \""The image depicts two grim reapers, one labeled \'anti-vax\'""
+  }
+  role: ""model""
+}
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: MEDIUM
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+citation_metadata {
+}
+]"
+id_1156906623945732096_2019-08-01.jpg,"The `response.text` quick accessor only works when the response contains a valid `Part`, but none was returned. Check the `candidate.safety_ratings` to see if the response was blocked.","[index: 0
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: MEDIUM
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+]"
+id_1147516220855455744_2019-07-06.jpg,Unterminated string starting at: line 1 column 62 (char 61),"[index: 0
+content {
+  parts {
+    text: "" {\""sentiment\"": \""negative\"", \""confidence\"": 0.8, \""explanation\"": \""The image is a protest about climate change. The protesters are holding""
+  }
+  role: ""model""
+}
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: MEDIUM
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+citation_metadata {
+}
+]"
+id_1146301321563299840_2019-07-03.jpg,Unterminated string starting at: line 1 column 62 (char 61),"[index: 0
+content {
+  parts {
+    text: "" {\""sentiment\"": \""negative\"", \""confidence\"": 0.9, \""explanation\"": \""The image is a photo of a man gesturing with his hand""
+  }
+  role: ""model""
+}
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: LOW
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: MEDIUM
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+citation_metadata {
+}
+]"
+id_1158587189770563584_2019-08-06.jpg,Unterminated string starting at: line 1 column 62 (char 61),"[index: 0
+content {
+  parts {
+    text: "" {\""sentiment\"": \""negative\"", \""confidence\"": 0.8, \""explanation\"": \""The image is a protest sign with the text \'Corporations are""
+  }
+  role: ""model""
+}
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: MEDIUM
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+citation_metadata {
+}
+]"
+id_1141973833139871745_2019-06-21.jpg,"The `response.text` quick accessor only works when the response contains a valid `Part`, but none was returned. Check the `candidate.safety_ratings` to see if the response was blocked.","[index: 0
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: MEDIUM
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: LOW
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+]"
+id_1150671089585905664_2019-07-15.jpg,Unterminated string starting at: line 1 column 62 (char 61),"[index: 0
+content {
+  parts {
+    text: "" {\""sentiment\"": \""negative\"", \""confidence\"": 0.8, \""explanation\"": \""The image is about the New Zealand government\'s decision to fund""
+  }
+  role: ""model""
+}
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: MEDIUM
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+citation_metadata {
+}
+]"
+id_1152354170776772608_2019-07-19.jpg,Unterminated string starting at: line 1 column 62 (char 61),"[index: 0
+content {
+  parts {
+    text: "" {\""sentiment\"": \""negative\"", \""confidence\"": 0.9, \""explanation\"": \""The image is a quote from the TV show Agent Carter. In""
+  }
+  role: ""model""
+}
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: HIGH
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+citation_metadata {
+}
+]"
+id_1162063285501472768_2019-08-15.jpg,"The `response.text` quick accessor only works when the response contains a valid `Part`, but none was returned. Check the `candidate.safety_ratings` to see if the response was blocked.","[index: 0
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: HIGH
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+]"
+id_1090751080898584576_2019-01-30.jpg,"The `response.text` quick accessor only works when the response contains a valid `Part`, but none was returned. Check the `candidate.safety_ratings` to see if the response was blocked.","[index: 0
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: MEDIUM
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+]"
+id_1113923471279632385_2019-04-04.jpg,"The `response.text` quick accessor only works when the response contains a valid `Part`, but none was returned. Check the `candidate.safety_ratings` to see if the response was blocked.","[index: 0
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: MEDIUM
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+]"
+id_1082689276788129793_2019-01-08.jpg,"The `response.text` quick accessor only works when the response contains a valid `Part`, but none was returned. Check the `candidate.safety_ratings` to see if the response was blocked.","[index: 0
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: MEDIUM
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+]"
+id_1114527100785123328_2019-04-06.jpg,Unterminated string starting at: line 1 column 62 (char 61),"[index: 0
+content {
+  parts {
+    text: "" {\""sentiment\"": \""negative\"", \""confidence\"": 0.8, \""explanation\"": \""The image shows Donald Trump with his hair blown in different directions,""
+  }
+  role: ""model""
+}
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: HIGH
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+citation_metadata {
+}
+]"
+id_1120111015075540992_2019-04-21.jpg,503 The model is overloaded. Please try again later.,"[index: 0
+content {
+  parts {
+    text: "" {\""sentiment\"": \""negative\"", \""confidence\"": 0.8, \""explanation\"": \""The image shows a group of people protesting against climate change. The""
+  }
+  role: ""model""
+}
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: MEDIUM
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+citation_metadata {
+}
+]"
+id_1155145067704856576_2019-07-27.jpg,Unterminated string starting at: line 1 column 62 (char 61),"[index: 0
+content {
+  parts {
+    text: "" {\""sentiment\"": \""negative\"", \""confidence\"": 0.8, \""explanation\"": \""The image shows a person putting on a clown wig, which is""
+  }
+  role: ""model""
+}
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: MEDIUM
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+citation_metadata {
+}
+]"
+id_1162063285501472768_2019-08-15.jpg,"The `response.text` quick accessor only works when the response contains a valid `Part`, but none was returned. Check the `candidate.safety_ratings` to see if the response was blocked.","[index: 0
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: HIGH
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+]"
+id_1156819162779529216_2019-08-01.jpg,Unterminated string starting at: line 1 column 62 (char 61),"[index: 0
+content {
+  parts {
+    text: "" {\""sentiment\"": \""negative\"", \""confidence\"": 0.9, \""explanation\"": \""The image is about Greta Thunberg and it is written in a""
+  }
+  role: ""model""
+}
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: MEDIUM
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+citation_metadata {
+}
+]"
+id_1163851874921005057_2019-08-20.jpg,"The `response.text` quick accessor only works when the response contains a valid `Part`, but none was returned. Check the `candidate.safety_ratings` to see if the response was blocked.","[index: 0
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: MEDIUM
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+]"
+id_1150122829641203712_2019-07-13.jpg,Unterminated string starting at: line 1 column 62 (char 61),"[index: 0
+content {
+  parts {
+    text: "" {\""sentiment\"": \""negative\"", \""confidence\"": 0.9, \""explanation\"": \""The image shows a child looking through a hole in a metal door. The child is in a cage-like structure. The image is likely depicting the conditions in which children are being held in detention camps at the U.S""
+  }
+  role: ""model""
+}
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: MEDIUM
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+citation_metadata {
+}
+]"
+id_1149650065683705856_2019-07-12.jpg,Unterminated string starting at: line 1 column 62 (char 61),"[index: 0
+content {
+  parts {
+    text: "" {\""sentiment\"": \""negative\"", \""confidence\"": 0.9, \""explanation\"": \""The image contains a quote that expresses a negative view of humanity,""
+  }
+  role: ""model""
+}
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: MEDIUM
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: MEDIUM
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+citation_metadata {
+}
+]"
+id_1144831460475457536_2019-06-29.jpg,"The `response.text` quick accessor only works when the response contains a valid `Part`, but none was returned. Check the `candidate.safety_ratings` to see if the response was blocked.","[index: 0
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: MEDIUM
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+]"
+id_1164159904363536384_2019-08-21.jpg,Unterminated string starting at: line 1 column 62 (char 61),"[index: 0
+content {
+  parts {
+    text: "" {\""sentiment\"": \""negative\"", \""confidence\"": 0.9, \""explanation\"": \""The image is a political cartoon of Donald Trump. He is depicted""
+  }
+  role: ""model""
+}
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: LOW
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: MEDIUM
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+citation_metadata {
+}
+]"
+id_1157699684057649152_2019-08-03.jpg,Unterminated string starting at: line 1 column 62 (char 61),"[index: 0
+content {
+  parts {
+    text: "" {\""sentiment\"": \""negative\"", \""confidence\"": 0.9, \""explanation\"": \""The image is about Greta Thunberg and it is mostly negative.""
+  }
+  role: ""model""
+}
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: MEDIUM
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+citation_metadata {
+}
+]"
+id_1155190148541423617_2019-07-27.jpg,Unterminated string starting at: line 1 column 62 (char 61),"[index: 0
+content {
+  parts {
+    text: "" {\""sentiment\"": \""negative\"", \""confidence\"": 0.9, \""explanation\"": \""The image is about pollution and the sentiment is negative because it says""
+  }
+  role: ""model""
+}
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: MEDIUM
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+citation_metadata {
+}
+]"
+id_1145679623822426118_2019-07-01.jpg,"The `response.text` quick accessor only works when the response contains a valid `Part`, but none was returned. Check the `candidate.safety_ratings` to see if the response was blocked.","[index: 0
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: MEDIUM
+}
+]"
+id_1185585911733469184_2019-10-19.jpg,Unterminated string starting at: line 1 column 62 (char 61),"[index: 0
+content {
+  parts {
+    text: "" {\""sentiment\"": \""negative\"", \""confidence\"": 0.9, \""explanation\"": \""The image is a meme that criticizes Barbra Streisand for wanting open borders while trying to close the beach in front of her multi-million dollar mansion. The image is clearly intended to be humorous, but it also has""
+  }
+  role: ""model""
+}
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: MEDIUM
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+citation_metadata {
+}
+]"
+id_1172501722943676416_2019-09-13.jpg,Unterminated string starting at: line 1 column 62 (char 61),"[index: 0
+content {
+  parts {
+    text: "" {\""sentiment\"": \""negative\"", \""confidence\"": 0.9, \""explanation\"": \""The image contains a quote from Donald Trump which expresses his belief that""
+  }
+  role: ""model""
+}
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: MEDIUM
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+citation_metadata {
+}
+]"
+id_1176565240403767296_2019-09-24.jpg,503 The model is overloaded. Please try again later.,"[index: 0
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: MEDIUM
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+]"
+id_1167074401046556673_2019-08-29.jpg,503 The model is overloaded. Please try again later.,"[index: 0
+content {
+  parts {
+    text: "" {\""sentiment\"": \""negative\"", \""confidence\"": 0.9, \""explanation\"": \""The image is a quote from Scott Walker, a Republican politician. In the quote, Walker criticizes Alexandria Ocasio-Cortez, a Democratic politician, and her generation for not appreciating the sacrifices made by the Greatest Generation.""
+  }
+  role: ""model""
+}
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: MEDIUM
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+citation_metadata {
+}
+]"
+id_1167941421296316416_2019-08-31.jpg,Unterminated string starting at: line 1 column 62 (char 61),"[index: 0
+content {
+  parts {
+    text: "" {\""sentiment\"": \""negative\"", \""confidence\"": 0.9, \""explanation\"": \""The image is a political cartoon that depicts the Canadian government as being""
+  }
+  role: ""model""
+}
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: MEDIUM
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+citation_metadata {
+}
+]"
+id_1179844862063104001_2019-10-03.jpg,Unterminated string starting at: line 1 column 62 (char 61),"[index: 0
+content {
+  parts {
+    text: "" {\""sentiment\"": \""negative\"", \""confidence\"": 0.9, \""explanation\"": \""The image is of a woman, Melanie Phillips, with text stating""
+  }
+  role: ""model""
+}
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: MEDIUM
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: HIGH
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+citation_metadata {
+}
+]"
+id_1170461958195351553_2019-09-07.jpg,Unterminated string starting at: line 1 column 62 (char 61),"[index: 0
+content {
+  parts {
+    text: "" {\""sentiment\"": \""negative\"", \""confidence\"": 0.9, \""explanation\"": \""The image is about a Swedish scientist who proposes cannibalism to fight""
+  }
+  role: ""model""
+}
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: MEDIUM
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: MEDIUM
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+citation_metadata {
+}
+]"
+id_1178630148112953345_2019-09-30.jpg,Unterminated string starting at: line 1 column 60 (char 59),"[index: 0
+content {
+  parts {
+    text: "" {\""sentiment\"": \""negative\"", \""confidence\"": 1, \""explanation\"": \""The image contains the text \'Boris Johnson is still a pure fanny\'""
+  }
+  role: ""model""
+}
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: MEDIUM
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+citation_metadata {
+}
+]"
+id_1210597086955098112_2019-12-27.jpg,"The `response.text` quick accessor only works when the response contains a valid `Part`, but none was returned. Check the `candidate.safety_ratings` to see if the response was blocked.","[index: 0
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: MEDIUM
+}
+]"
+id_1182252450528600074_2019-10-10.jpg,Unterminated string starting at: line 1 column 62 (char 61),"[index: 0
+content {
+  parts {
+    text: "" {\""sentiment\"": \""negative\"", \""confidence\"": 0.9, \""explanation\"": \""The image shows a man being arrested on a plane. The man""
+  }
+  role: ""model""
+}
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: MEDIUM
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+citation_metadata {
+}
+]"
+id_1157205662490857472_2019-08-02.jpg,503 The model is overloaded. Please try again later.,"[index: 0
+content {
+  parts {
+    text: "" {\""sentiment\"": \""negative\"", \""confidence\"": 0.9, \""explanation\"": \""The image is about Prince Harry\'s flight to Sicily to give""
+  }
+  role: ""model""
+}
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: MEDIUM
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+citation_metadata {
+}
+]"
+id_1163457126787878912_2019-08-19.jpg,"The `response.text` quick accessor only works when the response contains a valid `Part`, but none was returned. Check the `candidate.safety_ratings` to see if the response was blocked.","[index: 0
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: LOW
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: HIGH
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+]"
+id_1147516220855455744_2019-07-06.jpg,Unterminated string starting at: line 1 column 62 (char 61),"[index: 0
+content {
+  parts {
+    text: "" {\""sentiment\"": \""negative\"", \""confidence\"": 0.8, \""explanation\"": \""The image shows a group of people protesting against climate change. The banner they are holding says \'Climate chaos kills\'. The people in the image are wearing clothes that suggest they are concerned about the environment. The overall tone of the""
+  }
+  role: ""model""
+}
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: MEDIUM
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+citation_metadata {
+}
+]"
+id_1146301321563299840_2019-07-03.jpg,Unterminated string starting at: line 1 column 62 (char 61),"[index: 0
+content {
+  parts {
+    text: "" {\""sentiment\"": \""negative\"", \""confidence\"": 0.9, \""explanation\"": \""The image is a photo of a man gesturing with his hand""
+  }
+  role: ""model""
+}
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: LOW
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: MEDIUM
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+citation_metadata {
+}
+]"
+id_1158587189770563584_2019-08-06.jpg,Unterminated string starting at: line 1 column 62 (char 61),"[index: 0
+content {
+  parts {
+    text: "" {\""sentiment\"": \""negative\"", \""confidence\"": 0.8, \""explanation\"": \""The image is a protest sign with the text \'Corporations are""
+  }
+  role: ""model""
+}
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: MEDIUM
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+citation_metadata {
+}
+]"
+id_1141973833139871745_2019-06-21.jpg,"The `response.text` quick accessor only works when the response contains a valid `Part`, but none was returned. Check the `candidate.safety_ratings` to see if the response was blocked.","[index: 0
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: MEDIUM
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: LOW
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+]"
+id_1150671089585905664_2019-07-15.jpg,503 The model is overloaded. Please try again later.,"[index: 0
+content {
+  parts {
+    text: "" {\""sentiment\"": \""negative\"", \""confidence\"": 0.9, \""explanation\"": \""The image is about the New Zealand government\'s decision to fund""
+  }
+  role: ""model""
+}
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: MEDIUM
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+citation_metadata {
+}
+]"
+id_1152354170776772608_2019-07-19.jpg,Unterminated string starting at: line 1 column 62 (char 61),"[index: 0
+content {
+  parts {
+    text: "" {\""sentiment\"": \""negative\"", \""confidence\"": 0.8, \""explanation\"": \""The image is a quote from the TV show Agent Carter. In""
+  }
+  role: ""model""
+}
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: LOW
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: MEDIUM
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+citation_metadata {
+}
+]"
+id_1165156587322904577_2019-08-24.jpg,Unterminated string starting at: line 1 column 62 (char 61),"[index: 0
+content {
+  parts {
+    text: "" {\""sentiment\"": \""negative\"", \""confidence\"": 0.9, \""explanation\"": \""The image contains a quote from Emma Thompson in which she calls Boris""
+  }
+  role: ""model""
+}
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: HIGH
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+citation_metadata {
+}
+]"
+id_1170093063542333440_2019-09-06.jpg,Invalid \escape: line 1 column 111 (char 110),"[index: 0
+content {
+  parts {
+    text: "" {\""sentiment\"": \""neutral\"", \""confidence\"": 1, \""explanation\"": \""The image is an advertisement for a TV show called \\\""Watters\' World\\\"". It features a picture of Eric Trump, the son of former President Donald Trump, and text that says \\\""Saturday 8pm ET\\\"". There is no clear sentiment in the image.\""}""
+  }
+  role: ""model""
+}
+finish_reason: STOP
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+citation_metadata {
+}
+]"
+id_1168879448730607617_2019-09-03.jpg,Unterminated string starting at: line 1 column 62 (char 61),"[index: 0
+content {
+  parts {
+    text: "" {\""sentiment\"": \""negative\"", \""confidence\"": 0.9, \""explanation\"": \""The image is a political advertisement that uses fear and anger to appeal""
+  }
+  role: ""model""
+}
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: MEDIUM
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+citation_metadata {
+}
+]"
+id_1174366654823841794_2019-09-18.jpg,"The `response.text` quick accessor only works when the response contains a valid `Part`, but none was returned. Check the `candidate.safety_ratings` to see if the response was blocked.","[index: 0
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: LOW
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: MEDIUM
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+]"
+id_1173211482303188994_2019-09-15.jpg,503 The model is overloaded. Please try again later.,"[index: 0
+content {
+  parts {
+    text: "" {\""sentiment\"": \""negative\"", \""confidence\"": 0.9, \""explanation\"": \""The image contains a tweet that expresses negative sentiment towards Catherine McKenna,""
+  }
+  role: ""model""
+}
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: MEDIUM
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+citation_metadata {
+}
+]"
+id_1177301431067394049_2019-09-26.jpg,Unterminated string starting at: line 1 column 62 (char 61),"[index: 0
+content {
+  parts {
+    text: "" {\""sentiment\"": \""negative\"", \""confidence\"": 0.8, \""explanation\"": \""The image is a political cartoon that is critical of protests. The cartoonist has drawn several people who are protesting about different issues, such as women\'s rights, gay rights, and climate change. The people in the cartoon""
+  }
+  role: ""model""
+}
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: MEDIUM
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+citation_metadata {
+}
+]"
+id_1178791237702373377_2019-09-30.jpg,Invalid \escape: line 1 column 156 (char 155),"[index: 0
+content {
+  parts {
+    text: "" {\""sentiment\"": \""negative\"", \""confidence\"": 0.9, \""explanation\"": \""The image is a milk carton with a picture of a politician on it. The text on the carton says \\\""Missing\\\"" and \\\""Have you seen our senator?\\\"". This suggests that the politician is missing and that people are looking""
+  }
+  role: ""model""
+}
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: MEDIUM
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+citation_metadata {
+}
+]"
+id_1211853488939925504_2019-12-31.jpg,Unterminated string starting at: line 1 column 62 (char 61),"[index: 0
+content {
+  parts {
+    text: "" {\""sentiment\"": \""negative\"", \""confidence\"": 0.8, \""explanation\"": \""The image is about Greta Thunberg, a climate activist, and""
+  }
+  role: ""model""
+}
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: MEDIUM
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+citation_metadata {
+}
+]"
+id_1178308660726042628_2019-09-29.jpg,"The `response.text` quick accessor only works when the response contains a valid `Part`, but none was returned. Check the `candidate.safety_ratings` to see if the response was blocked.","[index: 0
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: LOW
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: MEDIUM
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+]"
+id_1176943051391897600_2019-09-25.jpg,Unterminated string starting at: line 1 column 62 (char 61),"[index: 0
+content {
+  parts {
+    text: "" {\""sentiment\"": \""negative\"", \""confidence\"": 0.9, \""explanation\"": \""The image is a tweet that says If you think children have the""
+  }
+  role: ""model""
+}
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: MEDIUM
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+citation_metadata {
+}
+]"
+id_1185651795420438535_2019-10-19.jpg,Unterminated string starting at: line 1 column 62 (char 61),"[index: 0
+content {
+  parts {
+    text: "" {\""sentiment\"": \""negative\"", \""confidence\"": 0.9, \""explanation\"": \""The tweet is about Hillary Clinton calling Jill Stein a Russian asset.""
+  }
+  role: ""model""
+}
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: LOW
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: MEDIUM
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+citation_metadata {
+}
+]"
+id_1173945500967587840_2019-09-17.jpg,"The `response.text` quick accessor only works when the response contains a valid `Part`, but none was returned. Check the `candidate.safety_ratings` to see if the response was blocked.","[index: 0
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: LOW
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: LOW
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: MEDIUM
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+]"
+id_1184087573519634432_2019-10-15.jpg,Unterminated string starting at: line 1 column 62 (char 61),"[index: 0
+content {
+  parts {
+    text: "" {\""sentiment\"": \""negative\"", \""confidence\"": 0.9, \""explanation\"": \""The image is about a protest against meat traders and ordinary people going""
+  }
+  role: ""model""
+}
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: MEDIUM
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+citation_metadata {
+}
+]"
+id_1167558483547512832_2019-08-30.jpg,Unterminated string starting at: line 1 column 62 (char 61),"[index: 0
+content {
+  parts {
+    text: "" {\""sentiment\"": \""negative\"", \""confidence\"": 0.9, \""explanation\"": \""The image is a meme of Barack Obama laughing with the text \""When you preach climate change, income inequality and racism are America\'s biggest problems, yet you buy a $15 million mansion on the water, in an""
+  }
+  role: ""model""
+}
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: MEDIUM
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+citation_metadata {
+}
+]"
+id_1172095836408492032_2019-09-12.jpg,Unterminated string starting at: line 1 column 62 (char 61),"[index: 0
+content {
+  parts {
+    text: "" {\""sentiment\"": \""negative\"", \""confidence\"": 0.8, \""explanation\"": \""The image is about a politician who is criticizing the government\'s""
+  }
+  role: ""model""
+}
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: MEDIUM
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+citation_metadata {
+}
+]"
+id_1175807520083861504_2019-09-22.jpg,Unterminated string starting at: line 1 column 62 (char 61),"[index: 0
+content {
+  parts {
+    text: "" {\""sentiment\"": \""negative\"", \""confidence\"": 0.8, \""explanation\"": \""The image shows a lot of trash on the ground, which suggests""
+  }
+  role: ""model""
+}
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: MEDIUM
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+citation_metadata {
+}
+]"
+id_1177287923605147648_2019-09-26.jpg,"The `response.text` quick accessor only works when the response contains a valid `Part`, but none was returned. Check the `candidate.safety_ratings` to see if the response was blocked.","[index: 0
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: MEDIUM
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+]"
+id_1162127258145837056_2019-08-15.jpg,Unterminated string starting at: line 1 column 62 (char 61),"[index: 0
+content {
+  parts {
+    text: "" {\""sentiment\"": \""negative\"", \""confidence\"": 0.9, \""explanation\"": \""The image is a poster of Greta Thunberg, a climate change""
+  }
+  role: ""model""
+}
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: MEDIUM
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+citation_metadata {
+}
+]"
+id_1156640914787512321_2019-07-31.jpg,Unterminated string starting at: line 1 column 62 (char 61),"[index: 0
+content {
+  parts {
+    text: "" {\""sentiment\"": \""negative\"", \""confidence\"": 0.9, \""explanation\"": \""The image is about the US Chamber of Commerce and it says that""
+  }
+  role: ""model""
+}
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: MEDIUM
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+citation_metadata {
+}
+]"
+id_1150255782379892736_2019-07-14.jpg,"The `response.text` quick accessor only works when the response contains a valid `Part`, but none was returned. Check the `candidate.safety_ratings` to see if the response was blocked.","[index: 0
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: MEDIUM
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+]"
+id_1155145067704856576_2019-07-27.jpg,"The `response.text` quick accessor only works when the response contains a valid `Part`, but none was returned. Check the `candidate.safety_ratings` to see if the response was blocked.","[index: 0
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: MEDIUM
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+]"
+id_1176963203311505408_2019-09-25.jpg,Unterminated string starting at: line 1 column 62 (char 61),"[index: 0
+content {
+  parts {
+    text: "" {\""sentiment\"": \""negative\"", \""confidence\"": 0.9, \""explanation\"": \""The image shows a cartoon of Donald Trump looking at a young girl with a stern expression. The girl is looking back at him with a defiant expression. The image is captioned with the text \""When you\'re trying to explain""
+  }
+  role: ""model""
+}
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: MEDIUM
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+citation_metadata {
+}
+]"
+id_1157205662490857472_2019-08-02.jpg,Unterminated string starting at: line 1 column 62 (char 61),"[index: 0
+content {
+  parts {
+    text: "" {\""sentiment\"": \""negative\"", \""confidence\"": 0.9, \""explanation\"": \""The image is about Prince Harry\'s flight to Sicily to give""
+  }
+  role: ""model""
+}
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: MEDIUM
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+citation_metadata {
+}
+]"
+id_1183397742128893952_2019-10-13.jpg,"The `response.text` quick accessor only works when the response contains a valid `Part`, but none was returned. Check the `candidate.safety_ratings` to see if the response was blocked.","[index: 0
+finish_reason: OTHER
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+]"
+id_1174834290397470721_2019-09-19.jpg,Unterminated string starting at: line 1 column 62 (char 61),"[index: 0
+content {
+  parts {
+    text: "" {\""sentiment\"": \""negative\"", \""confidence\"": 0.8, \""explanation\"": \""The image shows two people, one of whom is smiling and the""
+  }
+  role: ""model""
+}
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: MEDIUM
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+citation_metadata {
+}
+]"
+id_1166473803414855688_2019-08-27.jpg,Unterminated string starting at: line 1 column 62 (char 61),"[index: 0
+content {
+  parts {
+    text: "" {\""sentiment\"": \""negative\"", \""confidence\"": 0.9, \""explanation\"": \""The image is of Joe Biden, and the text says \'Joe""
+  }
+  role: ""model""
+}
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: MEDIUM
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+citation_metadata {
+}
+]"
+id_1170665357440368640_2019-09-08.jpg,Unterminated string starting at: line 1 column 62 (char 61),"[index: 0
+content {
+  parts {
+    text: "" {\""sentiment\"": \""negative\"", \""confidence\"": 0.8, \""explanation\"": \""The image shows two people, Mick Jagger and Donald Trump, with""
+  }
+  role: ""model""
+}
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: MEDIUM
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+citation_metadata {
+}
+]"
+id_1182340215534436355_2019-10-10.jpg,"The `response.text` quick accessor only works when the response contains a valid `Part`, but none was returned. Check the `candidate.safety_ratings` to see if the response was blocked.","[index: 0
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: LOW
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: MEDIUM
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+]"
+id_1182370038449393665_2019-10-10.jpg,Unterminated string starting at: line 1 column 62 (char 61),"[index: 0
+content {
+  parts {
+    text: "" {\""sentiment\"": \""negative\"", \""confidence\"": 0.8, \""explanation\"": \""The image is a tweet that is critical of Greta Thunberg.""
+  }
+  role: ""model""
+}
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: MEDIUM
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+citation_metadata {
+}
+]"
+id_1211982843913605120_2019-12-31.jpg,Unterminated string starting at: line 1 column 62 (char 61),"[index: 0
+content {
+  parts {
+    text: "" {\""sentiment\"": \""negative\"", \""confidence\"": 0.9, \""explanation\"": \""The tweet is about a conspiracy to reduce energy consumption, grow less""
+  }
+  role: ""model""
+}
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: MEDIUM
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+citation_metadata {
+}
+]"
+id_1178026054558081031_2019-09-28.jpg,"The `response.text` quick accessor only works when the response contains a valid `Part`, but none was returned. Check the `candidate.safety_ratings` to see if the response was blocked.","[index: 0
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: MEDIUM
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: MEDIUM
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+]"
+id_1163457126787878912_2019-08-19.jpg,"The `response.text` quick accessor only works when the response contains a valid `Part`, but none was returned. Check the `candidate.safety_ratings` to see if the response was blocked.","[index: 0
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: LOW
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: HIGH
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+]"
+id_1156819162779529216_2019-08-01.jpg,503 The model is overloaded. Please try again later.,"[index: 0
+content {
+  parts {
+    text: "" {\""sentiment\"": \""negative\"", \""confidence\"": 0.9, \""explanation\"": \""The image is about Greta Thunberg and it is written in a""
+  }
+  role: ""model""
+}
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: MEDIUM
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+citation_metadata {
+}
+]"
+id_1163851874921005057_2019-08-20.jpg,"The `response.text` quick accessor only works when the response contains a valid `Part`, but none was returned. Check the `candidate.safety_ratings` to see if the response was blocked.","[index: 0
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: MEDIUM
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+]"
+id_1150122829641203712_2019-07-13.jpg,Unterminated string starting at: line 1 column 62 (char 61),"[index: 0
+content {
+  parts {
+    text: "" {\""sentiment\"": \""negative\"", \""confidence\"": 0.9, \""explanation\"": \""The image shows a child looking through a metal fence. The child""
+  }
+  role: ""model""
+}
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: MEDIUM
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+citation_metadata {
+}
+]"
+id_1149650065683705856_2019-07-12.jpg,Unterminated string starting at: line 1 column 62 (char 61),"[index: 0
+content {
+  parts {
+    text: "" {\""sentiment\"": \""negative\"", \""confidence\"": 0.9, \""explanation\"": \""The image contains a quote that expresses a negative view of humanity,""
+  }
+  role: ""model""
+}
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: MEDIUM
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: HIGH
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+citation_metadata {
+}
+]"
+id_1145430824780738565_2019-06-30.jpg,Unterminated string starting at: line 1 column 62 (char 61),"[index: 0
+content {
+  parts {
+    text: "" {\""sentiment\"": \""negative\"", \""confidence\"": 0.9, \""explanation\"": \""The image is a photo of a woman with a piece of poop""
+  }
+  role: ""model""
+}
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: LOW
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: MEDIUM
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+citation_metadata {
+}
+]"
+id_1144831460475457536_2019-06-29.jpg,"The `response.text` quick accessor only works when the response contains a valid `Part`, but none was returned. Check the `candidate.safety_ratings` to see if the response was blocked.","[index: 0
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: MEDIUM
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+]"
+id_1164159904363536384_2019-08-21.jpg,Unterminated string starting at: line 1 column 62 (char 61),"[index: 0
+content {
+  parts {
+    text: "" {\""sentiment\"": \""negative\"", \""confidence\"": 0.9, \""explanation\"": \""The image is a political cartoon of Donald Trump. He is depicted""
+  }
+  role: ""model""
+}
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: LOW
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: MEDIUM
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+citation_metadata {
+}
+]"
+id_1157699684057649152_2019-08-03.jpg,Unterminated string starting at: line 1 column 62 (char 61),"[index: 0
+content {
+  parts {
+    text: "" {\""sentiment\"": \""negative\"", \""confidence\"": 0.8, \""explanation\"": \""The image is about Greta Thunberg and it is mostly negative.""
+  }
+  role: ""model""
+}
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: MEDIUM
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+citation_metadata {
+}
+]"
+id_1155190148541423617_2019-07-27.jpg,"The `response.text` quick accessor only works when the response contains a valid `Part`, but none was returned. Check the `candidate.safety_ratings` to see if the response was blocked.","[index: 0
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: MEDIUM
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+]"
+id_1145679623822426118_2019-07-01.jpg,"The `response.text` quick accessor only works when the response contains a valid `Part`, but none was returned. Check the `candidate.safety_ratings` to see if the response was blocked.","[index: 0
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: MEDIUM
+}
+]"
+id_1185585911733469184_2019-10-19.jpg,Unterminated string starting at: line 1 column 62 (char 61),"[index: 0
+content {
+  parts {
+    text: "" {\""sentiment\"": \""negative\"", \""confidence\"": 0.9, \""explanation\"": \""The image is a meme which shows a picture of Barbra Streisand with text reading \'Wants open borders. Spent years trying to close the beach in front of her multi-million dollar mansion\'. It is likely a criticism""
+  }
+  role: ""model""
+}
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: LOW
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: MEDIUM
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+citation_metadata {
+}
+]"
+id_1172501722943676416_2019-09-13.jpg,Unterminated string starting at: line 1 column 62 (char 61),"[index: 0
+content {
+  parts {
+    text: "" {\""sentiment\"": \""negative\"", \""confidence\"": 0.9, \""explanation\"": \""The image is of a quote from Donald Trump saying that it doesn""
+  }
+  role: ""model""
+}
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: MEDIUM
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+citation_metadata {
+}
+]"
+id_1176565240403767296_2019-09-24.jpg,503 The model is overloaded. Please try again later.,"[index: 0
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: MEDIUM
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+]"
+id_1164781191855083520_2019-08-23.jpg,Unterminated string starting at: line 1 column 62 (char 61),"[index: 0
+content {
+  parts {
+    text: "" {\""sentiment\"": \""negative\"", \""confidence\"": 0.9, \""explanation\"": \""The image shows Dolores Huerta, a civil rights activist, being arrested""
+  }
+  role: ""model""
+}
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: MEDIUM
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+citation_metadata {
+}
+]"
+id_1167074401046556673_2019-08-29.jpg,Unterminated string starting at: line 1 column 62 (char 61),"[index: 0
+content {
+  parts {
+    text: "" {\""sentiment\"": \""negative\"", \""confidence\"": 0.9, \""explanation\"": \""The image is a quote from Scott Walker, a Republican politician. In the quote, Walker is criticizing Alexandria Ocasio-Cortez, a Democratic politician, and her generation for not appreciating the sacrifices made by the Greatest Generation.""
+  }
+  role: ""model""
+}
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: LOW
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: MEDIUM
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+citation_metadata {
+}
+]"
+id_1167941421296316416_2019-08-31.jpg,Unterminated string starting at: line 1 column 62 (char 61),"[index: 0
+content {
+  parts {
+    text: "" {\""sentiment\"": \""negative\"", \""confidence\"": 0.9, \""explanation\"": \""The image is a political cartoon that depicts the Canadian government as being""
+  }
+  role: ""model""
+}
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: MEDIUM
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+citation_metadata {
+}
+]"
+id_1179844862063104001_2019-10-03.jpg,Unterminated string starting at: line 1 column 62 (char 61),"[index: 0
+content {
+  parts {
+    text: "" {\""sentiment\"": \""negative\"", \""confidence\"": 0.9, \""explanation\"": \""The image is of a woman, Melanie Phillips, with text stating""
+  }
+  role: ""model""
+}
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: MEDIUM
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: HIGH
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+citation_metadata {
+}
+]"
+id_1170461958195351553_2019-09-07.jpg,Unterminated string starting at: line 1 column 62 (char 61),"[index: 0
+content {
+  parts {
+    text: "" {\""sentiment\"": \""negative\"", \""confidence\"": 0.9, \""explanation\"": \""The image is about a Swedish scientist who proposes cannibalism to fight""
+  }
+  role: ""model""
+}
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: LOW
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: MEDIUM
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: LOW
+}
+citation_metadata {
+}
+]"
+id_1178630148112953345_2019-09-30.jpg,Unterminated string starting at: line 1 column 60 (char 59),"[index: 0
+content {
+  parts {
+    text: "" {\""sentiment\"": \""negative\"", \""confidence\"": 1, \""explanation\"": \""The image is a graffiti of a wall with the text \'Boris Johnson is""
+  }
+  role: ""model""
+}
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: HIGH
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+citation_metadata {
+}
+]"
+id_1210597086955098112_2019-12-27.jpg,"The `response.text` quick accessor only works when the response contains a valid `Part`, but none was returned. Check the `candidate.safety_ratings` to see if the response was blocked.","[index: 0
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: MEDIUM
+}
+]"
+id_1175832901260382209_2019-09-22.jpg,Unterminated string starting at: line 1 column 62 (char 61),"[index: 0
+content {
+  parts {
+    text: "" {\""sentiment\"": \""negative\"", \""confidence\"": 0.6, \""explanation\"": \""The image is about a poll about climate change. Younger people are""
+  }
+  role: ""model""
+}
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: MEDIUM
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: MEDIUM
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+citation_metadata {
+}
+]"
+id_1179756251770548224_2019-10-03.jpg,503 The model is overloaded. Please try again later.,"[index: 0
+content {
+  parts {
+    text: "" {\""sentiment\"": \""negative\"", \""confidence\"": 0.8, \""explanation\"": \""The article is about Greta Thunberg, a climate change activist.""
+  }
+  role: ""model""
+}
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: MEDIUM
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+citation_metadata {
+}
+]"
+id_1156906623945732096_2019-08-01.jpg,"The `response.text` quick accessor only works when the response contains a valid `Part`, but none was returned. Check the `candidate.safety_ratings` to see if the response was blocked.","[index: 0
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: LOW
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: MEDIUM
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+]"
+id_1147516220855455744_2019-07-06.jpg,Unterminated string starting at: line 1 column 62 (char 61),"[index: 0
+content {
+  parts {
+    text: "" {\""sentiment\"": \""negative\"", \""confidence\"": 0.8, \""explanation\"": \""The image is about a protest about climate change. The protesters are""
+  }
+  role: ""model""
+}
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: MEDIUM
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+citation_metadata {
+}
+]"
+id_1146301321563299840_2019-07-03.jpg,Unterminated string starting at: line 1 column 62 (char 61),"[index: 0
+content {
+  parts {
+    text: "" {\""sentiment\"": \""negative\"", \""confidence\"": 0.9, \""explanation\"": \""The image is a photo of a man gesturing with his hand while speaking. The text on the image reads: *Homelessness charities are a magnet for undesirables... Says Mark Field, here demonstrating how to deal with""
+  }
+  role: ""model""
+}
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: LOW
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: MEDIUM
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+citation_metadata {
+}
+]"
+id_1158587189770563584_2019-08-06.jpg,Unterminated string starting at: line 1 column 62 (char 61),"[index: 0
+content {
+  parts {
+    text: "" {\""sentiment\"": \""negative\"", \""confidence\"": 0.8, \""explanation\"": \""The image is a protest sign that says \'Corporations are not""
+  }
+  role: ""model""
+}
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: MEDIUM
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+citation_metadata {
+}
+]"
+id_1141973833139871745_2019-06-21.jpg,"The `response.text` quick accessor only works when the response contains a valid `Part`, but none was returned. Check the `candidate.safety_ratings` to see if the response was blocked.","[index: 0
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: MEDIUM
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: LOW
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+]"
+id_1150671089585905664_2019-07-15.jpg,503 The model is overloaded. Please try again later.,"[index: 0
+content {
+  parts {
+    text: "" {\""sentiment\"": \""negative\"", \""confidence\"": 0.9, \""explanation\"": \""The image is about the New Zealand government\'s decision to fund""
+  }
+  role: ""model""
+}
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: MEDIUM
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+citation_metadata {
+}
+]"
+id_1152354170776772608_2019-07-19.jpg,Unterminated string starting at: line 1 column 62 (char 61),"[index: 0
+content {
+  parts {
+    text: "" {\""sentiment\"": \""negative\"", \""confidence\"": 0.8, \""explanation\"": \""The image is a quote that says \'now I\'m not""
+  }
+  role: ""model""
+}
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: HIGH
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+citation_metadata {
+}
+]"
+id_1165156587322904577_2019-08-24.jpg,Unterminated string starting at: line 1 column 62 (char 61),"[index: 0
+content {
+  parts {
+    text: "" {\""sentiment\"": \""negative\"", \""confidence\"": 0.9, \""explanation\"": \""The image contains a quote from Emma Thompson in which she calls Boris""
+  }
+  role: ""model""
+}
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: LOW
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: HIGH
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+citation_metadata {
+}
+]"
+id_1170093063542333440_2019-09-06.jpg,Invalid \escape: line 1 column 111 (char 110),"[index: 0
+content {
+  parts {
+    text: "" {\""sentiment\"": \""neutral\"", \""confidence\"": 1, \""explanation\"": \""The image is an advertisement for a TV show called \\\""Watters\' World\\\"". It features a picture of the show\'s host, Eric Trump, smiling. The text on the image says \\\""Watters\' World, Saturday 8pm ET\\\"". There is no clear sentiment in the image.\""}""
+  }
+  role: ""model""
+}
+finish_reason: STOP
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+citation_metadata {
+}
+]"
+id_1168879448730607617_2019-09-03.jpg,Unterminated string starting at: line 1 column 62 (char 61),"[index: 0
+content {
+  parts {
+    text: "" {\""sentiment\"": \""negative\"", \""confidence\"": 0.9, \""explanation\"": \""The image is a political advertisement that uses fear-mongering and""
+  }
+  role: ""model""
+}
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: LOW
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: HIGH
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: MEDIUM
+}
+citation_metadata {
+}
+]"
+id_1174366654823841794_2019-09-18.jpg,"The `response.text` quick accessor only works when the response contains a valid `Part`, but none was returned. Check the `candidate.safety_ratings` to see if the response was blocked.","[index: 0
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: LOW
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: MEDIUM
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+]"
+id_1173211482303188994_2019-09-15.jpg,Unterminated string starting at: line 1 column 62 (char 61),"[index: 0
+content {
+  parts {
+    text: "" {\""sentiment\"": \""negative\"", \""confidence\"": 0.9, \""explanation\"": \""The image is a tweet that expresses negative sentiment towards Catherine McKenna,""
+  }
+  role: ""model""
+}
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: MEDIUM
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+citation_metadata {
+}
+]"
+id_1177301431067394049_2019-09-26.jpg,Unterminated string starting at: line 1 column 62 (char 61),"[index: 0
+content {
+  parts {
+    text: "" {\""sentiment\"": \""negative\"", \""confidence\"": 0.9, \""explanation\"": \""The image is a political cartoon that is critical of protests. The cartoonist has drawn several people who are protesting about different issues, such as women\'s rights, gay rights, and climate change. The people in the cartoon""
+  }
+  role: ""model""
+}
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: MEDIUM
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+citation_metadata {
+}
+]"
+id_1211853488939925504_2019-12-31.jpg,Unterminated string starting at: line 1 column 62 (char 61),"[index: 0
+content {
+  parts {
+    text: "" {\""sentiment\"": \""negative\"", \""confidence\"": 0.8, \""explanation\"": \""The image is about Greta Thunberg, a climate change activist,""
+  }
+  role: ""model""
+}
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: MEDIUM
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+citation_metadata {
+}
+]"
+id_1178308660726042628_2019-09-29.jpg,"The `response.text` quick accessor only works when the response contains a valid `Part`, but none was returned. Check the `candidate.safety_ratings` to see if the response was blocked.","[index: 0
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: LOW
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: MEDIUM
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+]"
+id_1176943051391897600_2019-09-25.jpg,"The `response.text` quick accessor only works when the response contains a valid `Part`, but none was returned. Check the `candidate.safety_ratings` to see if the response was blocked.","[index: 0
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: MEDIUM
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: MEDIUM
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+]"
+id_1185651795420438535_2019-10-19.jpg,Unterminated string starting at: line 1 column 62 (char 61),"[index: 0
+content {
+  parts {
+    text: "" {\""sentiment\"": \""negative\"", \""confidence\"": 0.9, \""explanation\"": \""The tweet is about Hillary Clinton calling Jill Stein a Russian asset.""
+  }
+  role: ""model""
+}
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: LOW
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: MEDIUM
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+citation_metadata {
+}
+]"
+id_1173945500967587840_2019-09-17.jpg,Unterminated string starting at: line 1 column 62 (char 61),"[index: 0
+content {
+  parts {
+    text: "" {\""sentiment\"": \""negative\"", \""confidence\"": 0.9, \""explanation\"": \""The image shows a news anchor with a picture of a woman in a bikini on the screen behind him. The news anchor is looking at the picture with a serious expression. The image is likely to be seen as negative because it""
+  }
+  role: ""model""
+}
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: HIGH
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: LOW
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: MEDIUM
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+citation_metadata {
+}
+]"
+id_1184087573519634432_2019-10-15.jpg,Unterminated string starting at: line 1 column 62 (char 61),"[index: 0
+content {
+  parts {
+    text: "" {\""sentiment\"": \""negative\"", \""confidence\"": 0.8, \""explanation\"": \""The image is about a protest against meat traders and ordinary people going""
+  }
+  role: ""model""
+}
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: LOW
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: MEDIUM
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+citation_metadata {
+}
+]"
+id_1167558483547512832_2019-08-30.jpg,Unterminated string starting at: line 1 column 62 (char 61),"[index: 0
+content {
+  parts {
+    text: "" {\""sentiment\"": \""negative\"", \""confidence\"": 0.9, \""explanation\"": \""The image is a meme of Barack Obama laughing with the text \""When you preach climate change, income inequality and racism are America\'s biggest problems, yet you buy a $15 million mansion on the water, in an""
+  }
+  role: ""model""
+}
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: MEDIUM
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+citation_metadata {
+}
+]"
+id_1172095836408492032_2019-09-12.jpg,Unterminated string starting at: line 1 column 62 (char 61),"[index: 0
+content {
+  parts {
+    text: "" {\""sentiment\"": \""negative\"", \""confidence\"": 0.8, \""explanation\"": \""The image is about a politician who is criticizing the government\'s""
+  }
+  role: ""model""
+}
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: MEDIUM
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+citation_metadata {
+}
+]"
+id_1175807520083861504_2019-09-22.jpg,Unterminated string starting at: line 1 column 62 (char 61),"[index: 0
+content {
+  parts {
+    text: "" {\""sentiment\"": \""negative\"", \""confidence\"": 0.8, \""explanation\"": \""The image shows a lot of trash on the ground, which suggests""
+  }
+  role: ""model""
+}
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: MEDIUM
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+citation_metadata {
+}
+]"
+id_1177287923605147648_2019-09-26.jpg,"The `response.text` quick accessor only works when the response contains a valid `Part`, but none was returned. Check the `candidate.safety_ratings` to see if the response was blocked.","[index: 0
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: MEDIUM
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+]"
+id_1210063958746501122_2019-12-26.jpg,Unterminated string starting at: line 1 column 62 (char 61),"[index: 0
+content {
+  parts {
+    text: "" {\""sentiment\"": \""negative\"", \""confidence\"": 0.9, \""explanation\"": \""The image is a quote from Jason Momoa, who is an""
+  }
+  role: ""model""
+}
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: MEDIUM
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+citation_metadata {
+}
+]"
+id_1190744851886817280_2019-11-02.jpg,Unterminated string starting at: line 1 column 62 (char 61),"[index: 0
+content {
+  parts {
+    text: "" {\""sentiment\"": \""negative\"", \""confidence\"": 0.9, \""explanation\"": \""The image is a tweet from Tomi Lahren, a conservative commentator. She is criticizing Leonardo DiCaprio and Greta Thunberg, two environmental activists, for their use of private jets and yachts. Lahren is suggesting that they are""
+  }
+  role: ""model""
+}
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: MEDIUM
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+citation_metadata {
+}
+]"
+id_1190380168642207744_2019-11-01.jpg,Unterminated string starting at: line 1 column 62 (char 61),"[index: 0
+content {
+  parts {
+    text: "" {\""sentiment\"": \""negative\"", \""confidence\"": 0.9, \""explanation\"": \""The tweet is about Amish people. The author of the tweet visited""
+  }
+  role: ""model""
+}
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: MEDIUM
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: MEDIUM
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+citation_metadata {
+}
+]"
+id_1205181201104850944_2019-12-12.jpg,Unterminated string starting at: line 1 column 62 (char 61),"[index: 0
+content {
+  parts {
+    text: "" {\""sentiment\"": \""negative\"", \""confidence\"": 0.9, \""explanation\"": \""The tweet is about Greta Thunberg, a climate change activist. The tweet says that she needs to work on her anger management problem and then go to a movie with a friend. The tweet is negative because it is making fun""
+  }
+  role: ""model""
+}
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: MEDIUM
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+citation_metadata {
+}
+]"
+id_1187967132643950599_2019-10-26.jpg,Unterminated string starting at: line 1 column 62 (char 61),"[index: 0
+content {
+  parts {
+    text: "" {\""sentiment\"": \""negative\"", \""confidence\"": 0.9, \""explanation\"": \""The image shows a woman being arrested. She is wearing a red dress and has her hands zip-tied behind her back. The woman is surrounded by police officers. The image is likely taken at a protest. The sentiment of""
+  }
+  role: ""model""
+}
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: MEDIUM
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+citation_metadata {
+}
+]"
+id_1201932811516743682_2019-12-03.jpg,"The `response.text` quick accessor only works when the response contains a valid `Part`, but none was returned. Check the `candidate.safety_ratings` to see if the response was blocked.","[index: 0
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: MEDIUM
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+]"
+id_1194034590735716353_2019-11-11.jpg,Unterminated string starting at: line 1 column 62 (char 61),"[index: 0
+content {
+  parts {
+    text: "" {\""sentiment\"": \""negative\"", \""confidence\"": 0.9, \""explanation\"": \""The image is of a young boy holding a sign that says \'""
+  }
+  role: ""model""
+}
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: MEDIUM
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+citation_metadata {
+}
+]"
+id_1181174389552930816_2019-10-07.jpg,"The `response.text` quick accessor only works when the response contains a valid `Part`, but none was returned. Check the `candidate.safety_ratings` to see if the response was blocked.","[index: 0
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: LOW
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: MEDIUM
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: LOW
+}
+]"
+id_1162063285501472768_2019-08-15.jpg,"The `response.text` quick accessor only works when the response contains a valid `Part`, but none was returned. Check the `candidate.safety_ratings` to see if the response was blocked.","[index: 0
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: HIGH
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+]"
+id_1183497547802796032_2019-10-13.jpg,Unterminated string starting at: line 1 column 62 (char 61),"[index: 0
+content {
+  parts {
+    text: "" {\""sentiment\"": \""negative\"", \""confidence\"": 0.8, \""explanation\"": \""The image is about a protest against climate change and the government\'""
+  }
+  role: ""model""
+}
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: MEDIUM
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+citation_metadata {
+}
+]"
+id_1178772405478678535_2019-09-30.jpg,Unterminated string starting at: line 1 column 62 (char 61),"[index: 0
+content {
+  parts {
+    text: "" {\""sentiment\"": \""negative\"", \""confidence\"": 0.8, \""explanation\"": \""The image is about Boris Johnson\'s attempt to block FM from""
+  }
+  role: ""model""
+}
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: MEDIUM
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+citation_metadata {
+}
+]"
+id_1157205662490857472_2019-08-02.jpg,503 The model is overloaded. Please try again later.,"[index: 0
+content {
+  parts {
+    text: "" {\""sentiment\"": \""negative\"", \""confidence\"": 0.9, \""explanation\"": \""The image is about Prince Harry\'s flight to Sicily to give""
+  }
+  role: ""model""
+}
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: MEDIUM
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+citation_metadata {
+}
+]"
+id_1183397742128893952_2019-10-13.jpg,"The `response.text` quick accessor only works when the response contains a valid `Part`, but none was returned. Check the `candidate.safety_ratings` to see if the response was blocked.","[index: 0
+finish_reason: OTHER
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+]"
+id_1174834290397470721_2019-09-19.jpg,Unterminated string starting at: line 1 column 62 (char 61),"[index: 0
+content {
+  parts {
+    text: "" {\""sentiment\"": \""negative\"", \""confidence\"": 0.8, \""explanation\"": \""The image shows two people, one of whom is smiling and the""
+  }
+  role: ""model""
+}
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: MEDIUM
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+citation_metadata {
+}
+]"
+id_1166473803414855688_2019-08-27.jpg,Unterminated string starting at: line 1 column 62 (char 61),"[index: 0
+content {
+  parts {
+    text: "" {\""sentiment\"": \""negative\"", \""confidence\"": 0.9, \""explanation\"": \""The image is of Joe Biden, and the text states that he""
+  }
+  role: ""model""
+}
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: MEDIUM
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+citation_metadata {
+}
+]"
+id_1182340215534436355_2019-10-10.jpg,"The `response.text` quick accessor only works when the response contains a valid `Part`, but none was returned. Check the `candidate.safety_ratings` to see if the response was blocked.","[index: 0
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: LOW
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: MEDIUM
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+]"
+id_1209656348184473603_2019-12-25.jpg,"The `response.text` quick accessor only works when the response contains a valid `Part`, but none was returned. Check the `candidate.safety_ratings` to see if the response was blocked.","[index: 0
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: LOW
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: MEDIUM
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+]"
+id_1204812650988875778_2019-12-11.jpg,Unterminated string starting at: line 1 column 62 (char 61),"[index: 0
+content {
+  parts {
+    text: "" {\""sentiment\"": \""negative\"", \""confidence\"": 0.9, \""explanation\"": \""The image shows the Titanic sinking, with the text above the ship saying \'If we\'re sinking why are we hundreds of feet up in the air?\' and the text below the ship saying \'Republicans on climate change\'. This""
+  }
+  role: ""model""
+}
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: MEDIUM
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+citation_metadata {
+}
+]"
+id_1201112956009762818_2019-12-01.jpg,Unterminated string starting at: line 1 column 62 (char 61),"[index: 0
+content {
+  parts {
+    text: "" {\""sentiment\"": \""negative\"", \""confidence\"": 0.9, \""explanation\"": \""The image is of a group of people holding signs that say \'""
+  }
+  role: ""model""
+}
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: LOW
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: MEDIUM
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+citation_metadata {
+}
+]"
+id_1175832901260382209_2019-09-22.jpg,Unterminated string starting at: line 1 column 62 (char 61),"[index: 0
+content {
+  parts {
+    text: "" {\""sentiment\"": \""negative\"", \""confidence\"": 0.6, \""explanation\"": \""The image is about a poll which shows that younger Republicans are more""
+  }
+  role: ""model""
+}
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: LOW
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: MEDIUM
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+citation_metadata {
+}
+]"
+id_1177008994444959744_2019-09-25.jpg,Unterminated string starting at: line 1 column 60 (char 59),"[index: 0
+content {
+  parts {
+    text: "" {\""sentiment\"": \""negative\"", \""confidence\"": 1, \""explanation\"": \""The image is about climate change. The text on the image says: It""
+  }
+  role: ""model""
+}
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: MEDIUM
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+citation_metadata {
+}
+]"
+id_1179756251770548224_2019-10-03.jpg,Unterminated string starting at: line 1 column 62 (char 61),"[index: 0
+content {
+  parts {
+    text: "" {\""sentiment\"": \""negative\"", \""confidence\"": 0.8, \""explanation\"": \""The headline is negative because it suggests that Greta Thunberg is not""
+  }
+  role: ""model""
+}
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: MEDIUM
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+citation_metadata {
+}
+]"
+id_1192512203011678208_2019-11-07.jpg,Unterminated string starting at: line 1 column 62 (char 61),"[index: 0
+content {
+  parts {
+    text: "" {\""sentiment\"": \""negative\"", \""confidence\"": 0.9, \""explanation\"": \""The image is a political cartoon that criticizes the inaction of world""
+  }
+  role: ""model""
+}
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: MEDIUM
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+citation_metadata {
+}
+]"
+id_1188151675799785472_2019-10-26.jpg,503 The model is overloaded. Please try again later.,"[index: 0
+content {
+  parts {
+    text: "" {\""sentiment\"": \""negative\"", \""confidence\"": 0.9, \""explanation\"": \""The image is a photo of Jane Fonda with text that says \'""
+  }
+  role: ""model""
+}
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: LOW
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: HIGH
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+citation_metadata {
+}
+]"
+id_1200400794216009730_2019-11-29.jpg,"The `response.text` quick accessor only works when the response contains a valid `Part`, but none was returned. Check the `candidate.safety_ratings` to see if the response was blocked.","[index: 0
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: MEDIUM
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: MEDIUM
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+]"
+id_1194611137104535563_2019-11-13.jpg,Unterminated string starting at: line 1 column 62 (char 61),"[index: 0
+content {
+  parts {
+    text: "" {\""sentiment\"": \""negative\"", \""confidence\"": 0.8, \""explanation\"": \""The image is of a group of people wearing masks of Boris Johnson, the Prime Minister of the United Kingdom. The people are dressed in dark clothing and have their arms raised in the air. The background is dark and there is""
+  }
+  role: ""model""
+}
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: MEDIUM
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+citation_metadata {
+}
+]"
+id_1209429048520323078_2019-12-24.jpg,Unterminated string starting at: line 1 column 60 (char 59),"[index: 0
+content {
+  parts {
+    text: "" {\""sentiment\"": \""negative\"", \""confidence\"": 1, \""explanation\"": \""The image is a political cartoon that depicts several politicians in a negative light.""
+  }
+  role: ""model""
+}
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: MEDIUM
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+citation_metadata {
+}
+]"
+id_1190250404271009792_2019-11-01.jpg,Unterminated string starting at: line 1 column 62 (char 61),"[index: 0
+content {
+  parts {
+    text: "" {\""sentiment\"": \""negative\"", \""confidence\"": 0.9, \""explanation\"": \""The image shows a young boy dressed as Donald Trump, holding two""
+  }
+  role: ""model""
+}
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: MEDIUM
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: HIGH
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+citation_metadata {
+}
+]"
+id_1207495774709268480_2019-12-19.jpg,Invalid \escape: line 1 column 151 (char 150),"[index: 0
+content {
+  parts {
+    text: "" {\""sentiment\"": \""negative\"", \""confidence\"": 0.8, \""explanation\"": \""The image shows a woman being arrested by police. The woman is holding a sign that says \\\""Stop Adani\\\"". Adani is a mining company that is planning to build a coal mine in Australia. The mine has been""
+  }
+  role: ""model""
+}
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: MEDIUM
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+citation_metadata {
+}
+]"
+id_1205126668249190401_2019-12-12.jpg,Unterminated string starting at: line 1 column 62 (char 61),"[index: 0
+content {
+  parts {
+    text: "" {\""sentiment\"": \""negative\"", \""confidence\"": 0.9, \""explanation\"": \""The tweet is about Greta Thunberg, a climate change activist. The tweet says that she needs to work on her anger management problem and then go to a movie with a friend. The tweet is negative because it is making fun""
+  }
+  role: ""model""
+}
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: MEDIUM
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+citation_metadata {
+}
+]"
+id_1193670411227021312_2019-11-10.jpg,Unterminated string starting at: line 1 column 62 (char 61),"[index: 0
+content {
+  parts {
+    text: "" {\""sentiment\"": \""negative\"", \""confidence\"": 0.9, \""explanation\"": \""The image is of a man standing in front of a rural landscape""
+  }
+  role: ""model""
+}
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: LOW
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: MEDIUM
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+citation_metadata {
+}
+]"
+id_1195929138487549953_2019-11-17.jpg,Unterminated string starting at: line 1 column 62 (char 61),"[index: 0
+content {
+  parts {
+    text: "" {\""sentiment\"": \""negative\"", \""confidence\"": 0.9, \""explanation\"": \""The image is of Russian President Vladimir Putin, with text that reads: \'Thank you Republicans! I couldn\'t have screwed your nation without you!\' This is a clear expression of gratitude from Putin to the Republican party, and""
+  }
+  role: ""model""
+}
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: MEDIUM
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+citation_metadata {
+}
+]"
+id_1181174389552930816_2019-10-07.jpg,"The `response.text` quick accessor only works when the response contains a valid `Part`, but none was returned. Check the `candidate.safety_ratings` to see if the response was blocked.","[index: 0
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: LOW
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: MEDIUM
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: LOW
+}
+]"
+id_1205155629750538241_2019-12-12.jpg,Unterminated string starting at: line 1 column 62 (char 61),"[index: 0
+content {
+  parts {
+    text: "" {\""sentiment\"": \""negative\"", \""confidence\"": 0.9, \""explanation\"": \""The image is a tweet from Donald Trump about Greta Thunberg.""
+  }
+  role: ""model""
+}
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: MEDIUM
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+citation_metadata {
+}
+]"
+id_1183497547802796032_2019-10-13.jpg,Unterminated string starting at: line 1 column 62 (char 61),"[index: 0
+content {
+  parts {
+    text: "" {\""sentiment\"": \""negative\"", \""confidence\"": 0.8, \""explanation\"": \""The image is about a protest against climate change and the government\'""
+  }
+  role: ""model""
+}
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: MEDIUM
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+citation_metadata {
+}
+]"
+id_1207373539789041664_2019-12-18.jpg,Unterminated string starting at: line 1 column 62 (char 61),"[index: 0
+content {
+  parts {
+    text: "" {\""sentiment\"": \""negative\"", \""confidence\"": 0.8, \""explanation\"": \""The article is about a firefighter who is being criticized by his colleagues""
+  }
+  role: ""model""
+}
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: MEDIUM
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+citation_metadata {
+}
+]"
+id_1205218503935946752_2019-12-12.jpg,"The `response.text` quick accessor only works when the response contains a valid `Part`, but none was returned. Check the `candidate.safety_ratings` to see if the response was blocked.","[index: 0
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: MEDIUM
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: LOW
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+]"
+id_1195333580823703552_2019-11-15.jpg,Unterminated string starting at: line 1 column 62 (char 61),"[index: 0
+content {
+  parts {
+    text: "" {\""sentiment\"": \""negative\"", \""confidence\"": 0.8, \""explanation\"": \""The image is about tax evasion by the global elite. The headline is \'13 trillion pounds hoarded hidden from taxman by global elite\'. This is a negative sentiment because it is about a crime that is being committed by""
+  }
+  role: ""model""
+}
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: MEDIUM
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+citation_metadata {
+}
+]"
+id_1193463515727716352_2019-11-10.jpg,Unterminated string starting at: line 1 column 62 (char 61),"[index: 0
+content {
+  parts {
+    text: "" {\""sentiment\"": \""negative\"", \""confidence\"": 0.9, \""explanation\"": \""The image is a meme that uses sarcasm to express a negative sentiment about climate change. The text on the sign in the image says \'The End Is Near\', and the caption text says \'Remember nuclear winter? Of course you""
+  }
+  role: ""model""
+}
+finish_reason: RECITATION
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+citation_metadata {
+}
+]"
+id_1205609113675272196_2019-12-13.jpg,Unterminated string starting at: line 1 column 62 (char 61),"[index: 0
+content {
+  parts {
+    text: "" {\""sentiment\"": \""negative\"", \""confidence\"": 0.9, \""explanation\"": \""The tweet is about Greta Thunberg, a climate change activist.""
+  }
+  role: ""model""
+}
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: MEDIUM
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+citation_metadata {
+}
+]"
+id_1189613386704850945_2019-10-30.jpg,Unterminated string starting at: line 1 column 62 (char 61),"[index: 0
+content {
+  parts {
+    text: "" {\""sentiment\"": \""negative\"", \""confidence\"": 0.8, \""explanation\"": \""The image is of a person holding a frame with the text \'""
+  }
+  role: ""model""
+}
+finish_reason: SAFETY
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: MEDIUM
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+citation_metadata {
+}
+]"
