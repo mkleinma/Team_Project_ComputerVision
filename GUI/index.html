@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,6 +10,7 @@
     #app {
       text-align: center;
     }
+
     .image-container {
       display: flex;
       justify-content: center;
@@ -16,6 +18,7 @@
       flex-wrap: wrap;
       margin-bottom: 20px;
     }
+
     img {
       max-width: 80%;
       max-height: 80vh;
@@ -23,6 +26,7 @@
       margin-bottom: 10px;
       cursor: pointer;
     }
+
     .preview-image {
       max-width: 100px;
       max-height: 100px;
@@ -30,75 +34,95 @@
       margin-bottom: 5px;
       cursor: pointer;
     }
+
     table {
       margin: 0 auto;
       border-collapse: collapse;
-      width: 30%;
+      width: 80%;
       margin-bottom: 20px;
     }
-    th, td {
+
+    th,
+    td {
       border: 1px solid #ddd;
       padding: 8px;
       text-align: left;
     }
+
     th {
       background-color: #f2f2f2;
     }
-    select{
+
+    select {
       margin: 0 auto;
       border-collapse: collapse;
       width: 30%;
       margin-bottom: 20px;
     }
-    #buttons {
+
+    buttons {
       margin: 0 auto;
       margin-bottom: 40px;
+      height: 600px;
+      width: 200px;
     }
-    
+
+    h2 {
+      text-align: center;
+    }
+
+    h1 {
+      text-align: center;
+    }
+    top-part{
+      justify-content: center;
+      align-items: center;
+    }
   </style>
 </head>
+
 <body>
+  <div style="text-align: center;">
+    <h1>Image GUI</h1>
+    <div>
+      5k Dataset <br>
+      <button @click="goToSmallDS">Switch to large Dataset</button>
+    </div>
+  </div>
+
   <div id="app">
-    <select name="Models" id="models">
-  <option value="Model1">Model1</option>
-  <option value="Model2">Model2</option>
-  <option value="Model3">Model3</option>
-  <option value="Model4">Model4</option>
-</select>
+    <!--  -->
     <div class="image-container">
-      <v-select
-  label="Select"
-  :items="['California', 'Colorado', 'Florida', 'Georgia', 'Texas', 'Wyoming']"
-></v-select>
-
-        <img :src=r"https://1drv.ms/f/s!AnZQU0s1Pz5ag6QFDiQHmZbH3HrcgQ?e=dvfTm2/img/id_1090954886265610240_2019-01-31.jpg" alt="Current Image" >
-<!----v-select doesnt work here-->
 
 
-<div>
+
+      <!-- test of FS access in Onedrive-->
+      <!-- <img :src=r"https://1drv.ms/f/s!AnZQU0s1Pz5ag6QFDiQHmZbH3HrcgQ?e=dvfTm2/img/id_1090954886265610240_2019-01-31.jpg" alt="Current Image" > -->
+      <!----v-select doesnt work here-->
+
+
+      <div>
         <h3>Preview Last</h3>
-        <img v-for="(image, index) in previewLastImages" :key="'last_'+index" :src="image" class="preview-image" @click="changeImage(index - (previewLastImages.length - 1))">
+        <img v-for="(image, index) in previewLastImages" :key="'last_'+index" :src="image" class="preview-image"
+          @click="changeImage(index - (previewLastImages.length - 1))">
       </div>
       <div>
 
-        <h1>Image GUI</h1>
-        <img :src="currentImage" alt="Current Image" @click="nextImage"
-      width="500" height="400"
       
-      
-   >
-    </img>
-     
-    </div>
-      <div> 
-        
-        <h3>Preview Next</h3>
-    <img v-for="(image, index) in previewNextImages" :key="'next_'+index" :src="image" class="preview-image" @click="changeImage(index)">
+        <img :src="currentImage" alt="Current Image" @click="nextImage" width="500" height="400">
+        </img>
+
       </div>
-    <div>
+      <div>
+
+        <h3>Preview Next</h3>
+        <img v-for="(image, index) in previewNextImages" :key="'next_'+index" :src="image" class="preview-image"
+          @click="changeImage(index)">
+      </div>
+      <div>
+      </div>
     </div>
-  </div>
-    <table>
+    <!-- Alte Tabelle die horizontal ausgerichtet ist <table>
       <thead>
         <tr>
           <th>Parameter</th>
@@ -110,10 +134,30 @@
           <td>{{ parameter }}</td>
           <td>{{ value }}</td>
         </tr>
-      </tbody>
-      
+      </tbody> -->
+
     </table>
+
     <table>
+      <thead>
+        <tr>
+          <th v-for="(value, parameter) in parameters" :key="parameter">
+            {{ parameter }}
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td v-for="(value, parameter) in parameters" :key="parameter">
+            {{ value }}
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <!-- ehemalige zweite tabelle
+    <table>
+    
+      <h3>Compared other Model</h3>
       <thead>
         <tr>
           <th>Parameter</th>
@@ -126,171 +170,316 @@
           <td>{{ value }}</td>
         </tr>
       </tbody>
-    </table>
+    </table> -->
     <div id="buttons">
-    <button  @click="prevImage">Previous</button>
-    <button  @click="nextImage">Next</button><br><br>
-    <button  @click="randomPictures">Random Pictures</button>
+      <button @click="prevImage">Previous</button>
+      <button @click="nextImage">Next</button><br><br>
+      <button @click="randomPictures">Random Pictures</button>
 
     </div>
     <div> </div>
-    <div><input type="text" id="searchBox" name="array[]" placeholder="Suchbegriff eingeben">
-      <button @click="loadFilteredImages">Filter anwenden</button>
+    <div>
+      <h2 >Filter all descriptions</h2><input type="text" id="searchBox" name="array[]"
+        placeholder="Suchbegriff eingeben">
+      <button @click="loadFilteredImages">Apply Filter</button>
+      <h2>confidence treshold</h2><input type="text" id="lowertresh" name="[]"
+        placeholder="larger than"><input type="text" id="highertresh" name="array[]"
+        placeholder="below">
+      <button @click="loadFilteredTreshImages">Apply Treshold + Filter</button>
+
       <div class="bilder"></div>
-      <!-- images nicht korrekt aus directory ausgelesen -->
-      <h1>{{suchbegriff_input}}</h1>
-  <script>
     
-    new Vue({
-      el: '#app',
-      data: {
-        images: [
-        //   'images/id_1079930976350932993_2019-01-01.jpg',
-        //   'images/id_1079932515836514305_2019-01-01.jpg',
-        //   'images/id_1079985792578027520_2019-01-01.jpg',
-        //   'images/id_1080073461064781829_2019-01-01.jpg',
-        //   'images/id_1080106880805097474_2019-01-01.jpg',
-        //   'images/id_1080169037957599234_2019-01-01.jpg',
-        //   'images/id_1080199439992655872_2019-01-01.jpg',
-        //   'images/id_1080225778212626432_2019-01-01.jpg',
-        //   'images/id_1080228300264538117_2019-01-01.jpg',
-                ],
-        currentIndex: 0,
-        previewSize: 5,
-        parameters: {},
-        parameters2: {}, 
-        filtered: [], 
-        suchbegriff_input: [],
-        suchbegriff: [],
-        model_options: ["Model1"]
+      <h3>{{this.imgnumber}} pictures found</h3>
+
+      <div class="space-x-6">
+
         
-      },
-      mounted() {
-        this.loadFilteredImages();
-        this.loadParameters();
-        this.loadParameters2();
-      },
-      computed: {
-        currentImage() {
-          return this.images[this.currentIndex];
-        },
-        previewNextImages() {
-          const start = this.currentIndex + 1;
-          const end = Math.min(start + this.previewSize, this.images.length);
-          return this.images.slice(start, end);
-        },
-        previewLastImages() {
-          const start = Math.max(0, this.currentIndex - this.previewSize + 1);
-          const end = this.currentIndex;
-          return this.images.slice(start, end);
-        }
-      },
-      methods: {
-        nextImage() {
-          this.currentIndex = (this.currentIndex + 1) % this.images.length;
-          this.loadParameters();
-          this.loadParameters2();
-          
-        },
-        prevImage() {
-          this.currentIndex = (this.currentIndex - 1 + this.images.length) % this.images.length;
-          this.loadParameters();
-          this.loadParameters2();
-        },
-        changeImage(index) {
-          this.currentIndex = (index + this.images.length) % this.images.length;
-          this.loadParameters();
-          this.loadParameters2();
-          
-        },
-        async loadParameters() {
-          try {
-            const response = await fetch('Model_a/parameters/parameters.csv');
-            const data = await response.text();
-            const lines = data.split('\n');
-            const headers = lines[0].split(',');
-            const currentLine = lines[this.currentIndex + 1];
-            const values = currentLine.split(',');
-            const params = {};
-            headers.forEach((header, index) => {
-              params[header.trim()] = values[index].trim();
-            });
-            this.parameters = params;
-          } catch (error) {
-            console.error('Error loading parameters:', error);
+      </div>
+      <script>
+
+
+        new Vue({
+          el: '#app',
+          data: {
+            images: [
+             
+            ],
+            currentIndex: 1,
+            previewSize: 6,
+            parameters: {},
+           // parameters2: {},
+            filtered: [],
+            suchbegriff_input: [],
+            suchbegriff: [],
+            model_options: ["Model1"],
+
+
+          },
+          mounted() {
+            this.loadFilteredImages();
+            this.loadParameters();
+         //   this.loadParameters2();
+            this.randomPictures();
+          },
+          computed: {
+            currentImage() {
+              return this.images[this.currentIndex];
+            },
+            previewNextImages() {
+              const start = this.currentIndex + 1;
+              const end = Math.min(start + this.previewSize, this.images.length);
+              return this.images.slice(start, end);
+            },
+            previewLastImages() {
+              const start = Math.max(0, this.currentIndex - this.previewSize + 1);
+              const end = this.currentIndex;
+              return this.images.slice(start, end);
+            }
+          },
+
+          methods: {
+
+            nextImage() {
+              this.currentIndex = (this.currentIndex + 1) % this.images.length;
+              this.loadParameters();
+           //   this.loadParameters2();
+
+            },
+            prevImage() {
+              this.currentIndex = (this.currentIndex - 1 + this.images.length) % this.images.length;
+              this.loadParameters();
+//              this.loadParameters2();
+            },
+            changeImage(index) {
+              this.currentIndex = (index + this.images.length) % this.images.length;
+              this.loadParameters();
+  //            this.loadParameters2();
+            },
+
+            goToSmallDS() {
+              this.$router.push('/smallds');
+            },
+            // Function for local HDF Processing, to be 
+            // async function readHDFRecords(hdfFile) {
+            //   const formData = new FormData();
+            //   formData.append("hdfFile", hdfFile);
+
+            //   const response = await fetch("/api/read-hdf", {
+            //     method: "POST",
+            //     body: formData,
+            //   });
+
+            //   if (!response.ok) {
+            //     throw new Error("Failed to read HDF file");
+            //   }
+
+            //   const records = await response.json();
+            //   return records;
+            // }
+            async changeModelDir() { },
+            // TODO Hier werden die HMTL-Selects ausgelesen und die Verzeichnisse dementsprechend abgeändert
+            async loadParameters() {
+              try {
+                const response = await fetch('Model_a/parameters/parameters.csv');
+                const data = await response.text();
+                const lines = data.split('\n');
+                const headers = lines[0].split(';');
+                //hier suchfunktion einbauene 
+
+                //// Extract the first column
+                //const firstColumn = values[0];
+
+                    console.log("CURRENT index pic: ");
+                    console.log(this.images[this.currentIndex].slice(7));
+                //const currentLine = this.images[this.currentIndex];
+                lines.forEach(line => {
+                  //values are arrays here
+                  const values = line.split(';');
+
+                    //console.log("now index pic: ");
+                  // const suchbegriff = this.suchbegriff;
+                    //console.log(values);
+                  // Check if all search values are present in the current row
+                  // if (this.suchbegriff.every(value => values.includes(value))) {
+                  const currimgname=this.images[this.currentIndex].slice(7);
+              
+                  if (values.some(value => value.toLowerCase().includes(currimgname))) {
+                    // Extract the first column
+                    console.log("CURRENT DATA FROM PICTURE: ");
+                    console.log(this.images[this.currentIndex]);
+                    const values = line.split(';');
+                    const params = {};
+                    headers.forEach((header, index) => {
+                      params[header.trim()] = values[index].trim();
+                    });
+                    this.parameters = params;
+                  }});
+              } catch (error) {
+                console.error('Error loading parameters:', error);
+              }
+            },
+            async loadParameters2() {
+              try {
+                const response = await fetch('Model_b/parameters/parameters.csv');
+                const data = await response.text();
+                const lines = data.split('\n');
+                const headers = lines[0].split(',');
+                const currentLine = lines[this.currentIndex + 1];
+                const values = currentLine.split(',');
+                const params = {};
+                headers.forEach((header, index) => {
+                  params[header.trim()] = values[index].trim();
+                    });
+                this.parameters2 = params;
+              } catch (error) {
+                console.error('Error loading parameters:', error);
+              }
+            },
+            loadImages() {
+              const imagesContext = require.context('./images', false, /\.(jpg|jpeg|png|gif)$/);
+              const directorypics = imagesContext.keys().map(image => imagesContext(image));
+
+              this.images = directorypics;
+            },
+
+
+            async randomPictures() {
+              this.loadFilteredTreshImages;
+              // TODO Bugfixing here
+
+              //  This part is optional if imported from csv  
+              // Split the CSV data into lines
+              // const lines = csvData.split(/\r?\n/);
+              // 
+              // Skip the header row (optional, adjust if your CSV has a header)
+              // lines.shift();
+
+              // Extract first column entries (assuming comma delimiter)
+              // const firstColumn = lines.map(line => line.split(";")[0]);
+              firstColumn = this.images;
+              // Randomly select 10 entries (Fisher-Yates shuffle)
+              for (let i = firstColumn.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1));
+                [firstColumn[i], firstColumn[j]] = [firstColumn[j], firstColumn[i]];
+              }
+
+              const randomSelection = firstColumn.slice(0, 6);
+
+              this.images = randomSelection;
+              this.loadParameters();
+              // return randomSelection;
+            },
+
+
+            async loadFilteredImages() {
+              const response = await fetch('Model_a/parameters/parameters.csv');
+              // Split CSV data into lines
+              const data = await response.text();
+              const lines = data.split('\n');
+
+              // Check if searchValues is an array
+              const searchBox = document.getElementById('searchBox');
+              const searchTerm = searchBox.value;
+              console.log(searchTerm)
+              // Handle single term or multiple terms (optional)
+              let searchTerms = [searchTerm];  // Assuming single term by default
+              // if (searchTerm.includes(' ') || searchTerm.includes(',')) {
+              // searchTerms = searchTerm.split(/\s|,+/);
+              // }
+
+              if (!Array.isArray(searchTerms)) {
+                throw new Error('searchValues must be an array of strings');
+              }
+
+              const filteredRows = [];
+              // Loop through each line (row)
+              lines.forEach(line => {
+                const values = line.split(';');
+                // const suchbegriff = this.suchbegriff;
+                // Check if all search values are present in the current row
+                // if (this.suchbegriff.every(value => values.includes(value))) {
+                if (values.some(value => value.toLowerCase().includes(searchTerms))) {
+                  // Extract the first colum (picture name)
+                  const firstColumn = values[0];
+                  filteredRows.push(firstColumn);
+
+                }
+              });
+              console.log(filteredRows)
+
+              const prefix = "images/";
+
+              const prefixedList = filteredRows.map(item => prefix + item);
+              this.filtered = prefixedList;
+              console.log(prefixedList);
+              this.images = prefixedList;
+              this.loadParameters();
+              this.imgnumber = this.images.length;
+            },
+            async loadFilteredTreshImages() {
+              const response = await fetch('Model_a/parameters/parameters.csv');
+              // Split CSV data into lines
+              const data = await response.text();
+              const lines = data.split('\n');
+
+              // Check if searchValues is an array
+              const searchBox = document.getElementById('searchBox'); 
+              const lowbox  = document.getElementById('lowertresh'); 
+              const highbox = document.getElementById('highertresh'); 
+              const searchTerm = searchBox.value;
+              let lowertresh  = (lowbox.value=='') ? "0":lowbox.value  ;
+              let highertresh = (highbox.value=='')? "1":highbox.value;
+              console.log("low");
+              console.log(highertresh);
+             /*  console.log(searchTerm)
+              console.log("lower treshold set to")
+              console.log(lowertresh)
+              console.log("highertresh set to")
+              console.lo */
+              // Handle single term or multiple terms (optional)
+              let searchTerms = [searchTerm];  // Assuming single term by default
+              // if (searchTerm.includes(' ') || searchTerm.includes(',')) {
+              // searchTerms = searchTerm.split(/\s|,+/);
+              // }
+
+              if (!Array.isArray(searchTerms)) {
+                throw new Error('searchValues must be an array of strings');
+              }
+
+              const filteredRows = [];
+              // Loop through each line (row)
+              lines.forEach(line => {
+                const values = line.split(';');
+                // const suchbegriff = this.suchbegriff;
+                // Check if all search values are present in the current row
+                // if (this.suchbegriff.every(value => values.includes(value))) {
+                if (values.some(value => value.toLowerCase().includes(searchTerms)) && values[values.length-1]<highertresh &&  values[values.length-1]>lowertresh) {
+                
+                  
+                  // Extract the first colum (picture name)
+                  console.log("Picure confidence");
+                  console.log(values[values.length-1])
+                  
+                  const firstColumn = values[0];
+                  filteredRows.push(firstColumn);
+
+                }
+              });
+              console.log("Results")
+              //console.log(filteredRows)
+              const prefix = "images/";
+
+              const prefixedList = filteredRows.map(item => prefix + item);
+              this.filtered = prefixedList;
+              console.log(prefixedList);
+              this.images = prefixedList;
+              this.loadParameters();
+              this.imgnumber = this.images.length;
+              
+            }
           }
-        },
-        async loadParameters2() {
-          try {
-            const response = await fetch('Model_b/parameters/parameters.csv');
-            const data = await response.text();
-            const lines = data.split('\n');
-            const headers = lines[0].split(',');
-            const currentLine = lines[this.currentIndex + 1];
-            const values = currentLine.split(',');
-            const params = {};
-            headers.forEach((header, index) => {
-              params[header.trim()] = values[index].trim();
-            });
-            this.parameters2 = params;
-          } catch (error) {
-            console.error('Error loading parameters:', error);
-          }
-        },
-          loadImages() {
-      const imagesContext = require.context('./images', false, /\.(jpg|jpeg|png|gif)$/);
-      const directorypics = imagesContext.keys().map(image => imagesContext(image));
-      
-      this.images = directorypics;
-    },
-       randomPictures(){
-
-       },
-    
-        async loadFilteredImages() {
-        const response = await fetch('Model_a/parameters/parameters.csv');
-  // Split CSV data into lines
-            const data = await response.text();
-  const lines = data.split('\n');
-
-  // Check if searchValues is an array
-  const searchBox = document.getElementById('searchBox');
-  const searchTerm = searchBox.value;        
-          console.log(searchTerm)
-  // Handle single term or multiple terms (optional)
-  let searchTerms = [searchTerm];  // Assuming single term by default
-  // if (searchTerm.includes(' ') || searchTerm.includes(',')) {
-    // searchTerms = searchTerm.split(/\s|,+/);
-  // }
-
-  if (!Array.isArray(searchTerms)) {
-    throw new Error('searchValues must be an array of strings');
-  }
-
-  const filteredRows = [];
-  // Loop through each line (row)
-  lines.forEach(line => {
-    const values = line.split(',');
-    // const suchbegriff = this.suchbegriff;
-    // Check if all search values are present in the current row
-    // if (this.suchbegriff.every(value => values.includes(value))) {
-      if (values.some(value => value.toLowerCase().includes(searchTerms))) {
-      // Extract the first column
-      const firstColumn = values[0];
-      filteredRows.push(firstColumn);
-    }
-  });
-          console.log(filteredRows)
-
-const prefix = "images/";
-
-const prefixedList = filteredRows.map(item => prefix + item);
-  this.filtered=prefixedList;
-  console.log(prefixedList);
-  this.images=prefixedList;
-}
-        }
-    });
-  </script>
+        });
+      </script>
 </body>
+
 </html>
