@@ -1,10 +1,13 @@
 <script setup>
 import { ref, computed } from 'vue'
 import Home from './index.html'
+import VueRouter from 'vue-router'
+import SmallDS from './index_small_ds.html'
+Vue.use(VueRouter);
 
 const routes = {
   '/': Home,
-  '/about': About
+  '/smallds': SmallDS
 }
 
 const currentPath = ref(window.location.hash)
@@ -16,12 +19,17 @@ window.addEventListener('hashchange', () => {
 const currentView = computed(() => {
   return routes[currentPath.value.slice(1) || '/'] || NotFound
 })
+const router = new VueRouter({
+  routes // short for `routes: routes`
+});
+
 </script>
+
 
 <template>
   <a href="#/">Home</a> |
-  <a href="#/about">About</a> |
-  <component :is="currentView" />
+  <a href="#/smallds">SmallDS</a> |
+  <component :is="currentView" /> 
 </template>
 </script>
 
