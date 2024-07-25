@@ -453,12 +453,12 @@
                 // const suchbegriff = this.suchbegriff;
                 // Check if all search values are present in the current row
                 // if (this.suchbegriff.every(value => values.includes(value))) {
-                if (values.some(value => value.toLowerCase().includes(searchTerms)) && values[values.length-1]<highertresh &&  values[values.length-1]>lowertresh) {
+                if (values.some(value => value.toLowerCase().includes(searchTerms)) && values[values.length-9]<highertresh &&  values[values.length-9]>lowertresh) {
                 
                   
                   // Extract the first colum (picture name)
                   console.log("Picure confidence");
-                  console.log(values[values.length-1])
+                  console.log(values[values.length-9])
                   
                   const firstColumn = values[0];
                   filteredRows.push(firstColumn);
