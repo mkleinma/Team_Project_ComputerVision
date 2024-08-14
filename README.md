@@ -24,3 +24,8 @@ The argument "custom" is meant to hand over parameters for a custom search/aggre
 The Backend then returns a list with pictures that fulfil the search criteria, so the GUI can load them and select a couple of them to show.
 
 The individual parameters of the current shown center image are requested by another Backend call, to avoid large transfer of data if the filter applies to a large ammount of pictures
+
+Important for future changes in the input dataset:
+The checkboxes are created from a hardcoded list that contains the column names (and all_content as well as "custom")
+The names must match the column description, since the backend will compare it to the columns of the input records. Otherwise the search function will not work.
+So if the column names change, the list in index.html must be adapted.
