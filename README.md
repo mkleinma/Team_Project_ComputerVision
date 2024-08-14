@@ -13,3 +13,8 @@ Then you can access the GUI in the browser on your local machine on the adress l
 
 start Flask Backend with command:
 flask run --port=5001
+
+# Documentation
+The Backend revcieves a http request args for the columns and search words to be filtered.
+The argument "all_content" describe values that all columns will be filtered for (other selected comlumns/values get ignored then, its in a seperate if clause)
+The argument "custom" is meant to hand over parameters for a custom search/aggregation at a later time, that can then be easily implemented in python in the flask app.py
