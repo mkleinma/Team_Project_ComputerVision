@@ -38,7 +38,7 @@
     table {
       margin: 0 auto;
       border-collapse: collapse;
-      width: 80%;
+      width: 90%;
       margin-bottom: 20px;
     }
 
@@ -85,8 +85,8 @@
   <div style="text-align: center;">
     <h1>Image GUI</h1>
     <div>
-      5k Dataset <br>
-      <button @click="goToSmallDS">Switch to large Dataset</button>
+      large Dataset - active Backend required <br>
+      <button @click="goToSmallDS">Switch to small Dataset</button>
     </div>
   </div>
 
@@ -98,13 +98,20 @@
 
       <!-- test of FS access in Onedrive-->
       <!-- <img :src=r"https://1drv.ms/f/s!AnZQU0s1Pz5ag6QFDiQHmZbH3HrcgQ?e=dvfTm2/img/id_1090954886265610240_2019-01-31.jpg" alt="Current Image" > -->
-      <!----v-select doesnt work here-->
-
+      
+      
+      <!----#TODO-->
+      <!----these 2 funtions didnt work well, replaced them with @click="nextImage" and prevImage, so it'll jump one towards the pic clicked on-->
+      <!----next-->
+      <!----@click="changeImage(index)"-->
+      <!----prev-->
+      <!----@click="changeImage(index - (previewLastImages.length - 1))"-->
+      
 
       <div>
         <h3>Preview Last</h3>
         <img v-for="(image, index) in previewLastImages" :key="'last_'+index" :src="image" class="preview-image"
-          @click="changeImage(index - (previewLastImages.length - 1))">
+          @click="prevImage">
       </div>
       <div>
 
@@ -117,7 +124,10 @@
 
         <h3>Preview Next</h3>
         <img v-for="(image, index) in previewNextImages" :key="'next_'+index" :src="image" class="preview-image"
-          @click="changeImage(index)">
+          
+          @click="nextImage"
+          >
+          
       </div>
       <div>
       </div>
@@ -179,20 +189,28 @@
     </div>
     <div> </div>
     <div>
-      <h2 >Filter all descriptions</h2><input type="text" id="searchBox" name="array[]"
+      
+    
+<h3>Filter individually:</h3>
+       <!--     
+      <h4 >Filter object detection</h4><input type="text" id="objbox" name="array[]"
         placeholder="Suchbegriff eingeben">
-      <button @click="loadFilteredImages">Apply Filter</button>
-      <h2>confidence treshold</h2><input type="text" id="lowertresh" name="[]"
+      <button @click="loadFilteredTreshImages">Apply Filter</button>
+      <h2>
+    
+        <h2>confidence treshold</h2><input type="text" id="lowertresh" name="[]"
         placeholder="larger than"><input type="text" id="highertresh" name="array[]"
         placeholder="below">
       <button @click="loadFilteredTreshImages">Apply Treshold + Filter</button>
 
       <div class="bilder"></div>
-    
-      <h3>{{this.imgnumber}} pictures found</h3>
+      -->
+      <!-- ><h3>{{this.PyData}} pictures found</h3>  -->
 
       <div class="space-x-6">
+        <div id="checkboxContainer"></div>
 
+      <button @click="loadFilteredImages">Apply Filters</button>
         
       </div>
       <script>
@@ -212,14 +230,19 @@
             suchbegriff_input: [],
             suchbegriff: [],
             model_options: ["Model1"],
-
+            
+           // Here is the list of all columns that can be searched, while "all_content" filters all columns and "custom" hands over a parameter for custom search/aggregation 
+            items : ['all_content','image','object_detection_results',	"aisak_description",	"moondream_description",	"gemini_description","facial_emotion",	"confidence"	,"gemini_img_sentiment"	,"lens_t5_img_sentiment",	"vqa_base_img"	,"vqa_capfilt"	,"like_ct"	,"quote_ct"	,"retweet_ct"	,"roberta_text", "custom"],
+      
 
           },
           mounted() {
-            this.loadFilteredImages();
+           // this.loadFilteredImages();
             this.loadParameters();
          //   this.loadParameters2();
             this.randomPictures();
+            this.createCheckboxes(this.items, 'checkboxContainer');
+            this.concatenateInputsWithLabels('checkboxContainer');
           },
           computed: {
             currentImage() {
@@ -251,6 +274,7 @@
 //              this.loadParameters2();
             },
             changeImage(index) {
+
               this.currentIndex = (index + this.images.length) % this.images.length;
               this.loadParameters();
   //            this.loadParameters2();
@@ -280,6 +304,20 @@
             // TODO Hier werden die HMTL-Selects ausgelesen und die Verzeichnisse dementsprechend abgeändert
             async loadParameters() {
               try {
+
+              let pic_string = 'pic_name='+this.images[this.currentIndex].slice(7) 
+              let response =  await fetch('http://localhost:5001/params?'+pic_string);
+              console.log("response",response);
+
+
+              // const response = await fetch('Model_a/parameters/parameters.csv');
+              // Split CSV data into lines
+              let data = await response.json();
+              console.log("data", data)
+              //const lines = data.split('\n');
+
+                /*  LEGACY Search Function
+                
                 const response = await fetch('Model_a/parameters/parameters.csv');
                 const data = await response.text();
                 const lines = data.split('\n');
@@ -289,6 +327,7 @@
                 //// Extract the first column
                 //const firstColumn = values[0];
 
+                    console.log(PyData);
                     console.log("CURRENT index pic: ");
                     console.log(this.images[this.currentIndex].slice(7));
                 //const currentLine = this.images[this.currentIndex];
@@ -311,9 +350,17 @@
                     const params = {};
                     headers.forEach((header, index) => {
                       params[header.trim()] = values[index].trim();
-                    });
+                    }); 
+
+                    
+                    const values = line.split(';');
+
+                    const params = this.items;
                     this.parameters = params;
-                  }});
+                  }
+                } 
+              );*/
+                    this.parameters = data;
               } catch (error) {
                 console.error('Error loading parameters:', error);
               }
@@ -341,6 +388,74 @@
 
               this.images = directorypics;
             },
+
+
+            async createCheckboxes(list, containerId) {
+    // Hole das Container-Element, in das die Checkboxen eingefügt werden sollen
+    var container = document.getElementById(containerId);
+    
+    // Prüfen, ob der Container existiert
+    if (!container) {
+        console.error("Container with id " + containerId + " not found.");
+        return;
+    }
+    
+    // Iteriere über jedes Element in der Liste
+    list.forEach(function(item) {
+        // Erstelle ein Label-Element
+        var label = document.createElement("label");
+
+        // Erstelle die Checkbox
+        var checkbox = document.createElement("input");
+        checkbox.type = "checkbox";
+        checkbox.value = item;
+        
+        // Füge die Checkbox und den Text zum Label hinzu
+        label.appendChild(checkbox);
+        label.appendChild(document.createTextNode(item));
+         // Erstelle ein Text-Eingabefeld
+        var input = document.createElement("input");
+        input.type = "text";
+        input.placeholder = "Enter text";
+        
+        // Füge das Text-Eingabefeld zum Label hinzu
+        label.appendChild(input);
+        
+        // Füge das Label zum Container hinzu
+        container.appendChild(label);
+        
+        // Optional: Line-Break nach jeder Checkbox
+        container.appendChild(document.createElement("br"));
+    });
+},
+
+    async concatenateInputsWithLabels(containerId) {
+    var container = document.getElementById(containerId);
+    
+    if (!container) {
+        console.error("Container with id " + containerId + " not found.");
+        return "";
+    }
+    
+    var labels = container.getElementsByTagName("label");
+    var concatenatedString = "";
+
+    // Iteriere über alle Labels, um die Checkbox- und Textfeld-Werte zu sammeln
+    Array.prototype.forEach.call(labels, function(label) {
+        var checkbox = label.querySelector("input[type='checkbox']");
+        var textInput = label.querySelector("input[type='text']");
+        
+        // Nur hinzufügen, wenn eine Texteingabe existiert
+        if (checkbox.checked && textInput && textInput.value.trim() !== "") {
+            if (concatenatedString !== "") {
+                concatenatedString += "&"; // Trennung durch Komma
+            }
+            concatenatedString += checkbox.value + "=" + textInput.value;
+        }
+    });
+
+    return concatenatedString;
+},
 
 
             async randomPictures() {
@@ -372,28 +487,40 @@
 
 
             async loadFilteredImages() {
-              const response = await fetch('Model_a/parameters/parameters.csv');
+              let result = await this.concatenateInputsWithLabels("checkboxContainer");
+              console.log("GET URL APPENDIX",result);
+              
+              let response =  await fetch('http://localhost:5001/search?'+result);
+              console.log("response",response);
+
+
+              // const response = await fetch('Model_a/parameters/parameters.csv');
               // Split CSV data into lines
-              const data = await response.text();
-              const lines = data.split('\n');
+              let data = await response.json();
+              console.log("data", data)
+              //const lines = data.split('\n');
 
               // Check if searchValues is an array
-              const searchBox = document.getElementById('searchBox');
-              const searchTerm = searchBox.value;
-              console.log(searchTerm)
+              //const searchBox = document.getElementById('searchBox');
+              //const searchTerm = searchBox.value;
+              //console.log(searchTerm)
+              
+
+
+
               // Handle single term or multiple terms (optional)
-              let searchTerms = [searchTerm];  // Assuming single term by default
+              //let searchTerms = [searchTerm];  // Assuming single term by default
               // if (searchTerm.includes(' ') || searchTerm.includes(',')) {
               // searchTerms = searchTerm.split(/\s|,+/);
               // }
 
-              if (!Array.isArray(searchTerms)) {
+              /* if (!Array.isArray(searchTerms)) {
                 throw new Error('searchValues must be an array of strings');
-              }
+              } */
 
-              const filteredRows = [];
+              const filteredRows = data
               // Loop through each line (row)
-              lines.forEach(line => {
+              /* lines.forEach(line => {
                 const values = line.split(';');
                 // const suchbegriff = this.suchbegriff;
                 // Check if all search values are present in the current row
@@ -404,8 +531,8 @@
                   filteredRows.push(firstColumn);
 
                 }
-              });
-              console.log(filteredRows)
+              }); */
+              console.log("Filter Results: ",filteredRows)
 
               const prefix = "images/";
 
@@ -414,8 +541,10 @@
               console.log(prefixedList);
               this.images = prefixedList;
               this.loadParameters();
-              this.imgnumber = this.images.length;
+              this.imgnumber = this.images.length; 
             },
+
+
             async loadFilteredTreshImages() {
               const response = await fetch('Model_a/parameters/parameters.csv');
               // Split CSV data into lines
@@ -426,7 +555,9 @@
               const searchBox = document.getElementById('searchBox'); 
               const lowbox  = document.getElementById('lowertresh'); 
               const highbox = document.getElementById('highertresh'); 
+              const objbox = document.getElementById('objbox'); 
               const searchTerm = searchBox.value;
+              const objsearchTerm = objbox.value;
               let lowertresh  = (lowbox.value=='') ? "0":lowbox.value  ;
               let highertresh = (highbox.value=='')? "1":highbox.value;
               console.log("low");
@@ -438,6 +569,7 @@
               console.lo */
               // Handle single term or multiple terms (optional)
               let searchTerms = [searchTerm];  // Assuming single term by default
+              let objsearchTerms = [objsearchTerm];
               // if (searchTerm.includes(' ') || searchTerm.includes(',')) {
               // searchTerms = searchTerm.split(/\s|,+/);
               // }
@@ -453,19 +585,19 @@
                 // const suchbegriff = this.suchbegriff;
                 // Check if all search values are present in the current row
                 // if (this.suchbegriff.every(value => values.includes(value))) {
-                if (values.some(value => value.toLowerCase().includes(searchTerms)) && values[values.length-9]<highertresh &&  values[values.length-9]>lowertresh) {
+                if (values.some(value => value.toLowerCase().includes(searchTerms)) && ifvalues[values.length-14].toLowerCase().includes(objsearchTerms) && values[values.length-9]<highertresh &&  values[values.length-9]>lowertresh) {
                 
                   
                   // Extract the first colum (picture name)
                   console.log("Picure confidence");
                   console.log(values[values.length-9])
                   
-                  const firstColumn = values[0];
+                  const firstColumn = values[0]; 
                   filteredRows.push(firstColumn);
 
                 }
               });
-              console.log("Results")
+              //console.log("Results")
               //console.log(filteredRows)
               const prefix = "images/";
 
