@@ -8,3 +8,8 @@ start Port tunneling with the following command:
 ssh -L 5173:localhost:5173 username@wifo5-33.informatik.uni-mannheim.de
 where 5173 is replaced by the port on which vue.js is running and username is replaced by your actual username
 Then you can access the GUI in the browser on your local machine on the adress localhost:5173
+
+# Backend Instructions
+
+start Flask Backend with command:
+flask run --port=5001
