@@ -17,7 +17,7 @@ source env/bin/activate
 run flask Backend with  
 flask run --port=5001  
 
-to keep job running after you disconnect your ssh session, run  
+to keep job running after you disconnect your ssh session, run it with
 nohup flask run --port=5001
 
 # Documentation
