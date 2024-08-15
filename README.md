@@ -17,8 +17,7 @@ source env/bin/activate
 run flask Backend with  
 flask run --port=5001  
 
-to keep job running after you disconnect your ssh session, run it with
-nohup flask run --port=5001
+to keep job running after you disconnect your ssh session, use screen command
 
 # Documentation
 The Backend revcieves a http request args for the columns and search words to be filtered.
@@ -35,7 +34,7 @@ The checkboxes are created from a hardcoded list that contains the column names 
 The names must match the column description, since the backend will compare it to the columns of the input records. Otherwise the search function will not work.
 So if the column names change, the list in index.html must be adapted.
 # TODO
--Error Handling
--Performance
--Aggregation Display
--Layout
+-Error Handling  
+-Performance  
+-Aggregation Display  
+-Layout  
