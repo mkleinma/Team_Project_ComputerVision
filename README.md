@@ -4,10 +4,10 @@ The goal of this project is to analyze a dataset of tweets about the topic Clima
 
 # GUI Instructions:
 
-start Port tunneling with the following command:
-ssh -L 5173:localhost:5173 username@wifo5-33.informatik.uni-mannheim.de
-where 5173 is replaced by the port on which vue.js is running and username is replaced by your actual username
-Then you can access the GUI in the browser on your local machine on the adress localhost:5173
+start Port tunneling with the following command:  
+ssh -L 5173:localhost:5173 username@wifo5-33.informatik.uni-mannheim.de  
+where 5173 is replaced by the port on which vue.js is running and username is replaced by your actual username    
+Then you can access the GUI in the browser on your local machine on the adress localhost:5173  
 
 # Backend Instructions
 go to directory  
@@ -34,3 +34,8 @@ Important for future changes in the input dataset:
 The checkboxes are created from a hardcoded list that contains the column names (as well as "custom")
 The names must match the column description, since the backend will compare it to the columns of the input records. Otherwise the search function will not work.
 So if the column names change, the list in index.html must be adapted.
+# TODO
+-Error Handling
+-Performance
+-Aggregation Display
+-Layout
