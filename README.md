@@ -10,9 +10,13 @@ where 5173 is replaced by the port on which vue.js is running and username is re
 Then you can access the GUI in the browser on your local machine on the adress localhost:5173
 
 # Backend Instructions
-
-start Flask Backend with command:
+go to directory 
+/data/teamproject/Flask
+activate venv with 
+source env/bin/activate
+run flask Backend with 
 flask run --port=5001
+
 
 # Documentation
 The Backend revcieves a http request args for the columns and search words to be filtered.
