@@ -17,6 +17,8 @@ source env/bin/activate
 run flask Backend with 
 flask run --port=5001
 
+to keep job running after you disconnect your ssh session, run
+nohup flask run --port=5001
 
 # Documentation
 The Backend revcieves a http request args for the columns and search words to be filtered.
