@@ -2,3 +2,10 @@
 climatevisions_2019.h5
 .DS_Store
 /dataset/*
+/node_modules/*
+/GUI/node_modules/*
+
+
+assessment/sentiment-analysis/results/errors/*
+assessment/sentiment-analysis/results/responses_randomSubset.csv
+assessment/sentiment-analysis/results/responses_randomSubset.json
