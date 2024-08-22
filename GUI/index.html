@@ -84,9 +84,9 @@
 <body>
   <div style="text-align: center;">
     <h1>Image GUI</h1>
+
+    <!-- Dropdown field -->
     <div>
-      large Dataset - active Backend required <br>
-      <button @click="goToSmallDS">Switch to small Dataset</button>
     </div>
   </div>
 
@@ -205,12 +205,24 @@
 
       <div class="bilder"></div>
       -->
-      <!-- ><h3>{{this.PyData}} pictures found</h3>  -->
-
+      <h3>{{this.images.length}} pictures found</h3> 
       <div class="space-x-6">
         <div id="checkboxContainer"></div>
-
+        <div style="text-align: center;">
       <button @click="loadFilteredImages">Apply Filters</button>
+      <p>Current active dataset: {{this.model_options}}</p><br>
+          <h3>Select </h3>
+      
+          <!-- Dropdown field -->
+          <select id="myDropdown" >
+              <option value="5k">5k most liked</option>
+              <option value="10k">10k random</option>
+              <option value="10kr">10k random II</option>
+          </select>
+            <button @click="loadFilteredImages">Change</button>
+          <div>
+          </div>
+        </div>
         
       </div>
       <script>
@@ -229,18 +241,22 @@
             filtered: [],
             suchbegriff_input: [],
             suchbegriff: [],
-            model_options: ["Model1"],
+            model_options: ['5k'],
+
             
            // Here is the list of all columns that can be searched, while "all_content" filters all columns and "custom" hands over a parameter for custom search/aggregation 
-            items : ['all_content','image','object_detection_results',	"aisak_description",	"moondream_description",	"gemini_description","facial_emotion",	"confidence"	,"gemini_img_sentiment"	,"lens_t5_img_sentiment",	"vqa_base_img"	,"vqa_capfilt"	,"like_ct"	,"quote_ct"	,"retweet_ct"	,"roberta_text", "custom"],
-      
+            items : ['image','object_detection_results',	"aisak_description",	"moondream_description",	"gemini_description","facial_emotion",	"confidence"	,"gemini_img_sentiment"	,"lens_t5_img_sentiment",	"vqa_base_img"	,"vqa_capfilt"	,"like_ct"	,"quote_ct"	,"retweet_ct"	,"roberta_text", "custom"],
+          // list to display output in tabular on page
+
+            //itemstab : ['image','object_detection_results',	"aisak_description",	"moondream_description",	"gemini_description","facial_emotion",	"confidence"	,"gemini_img_sentiment"	,"lens_t5_img_sentiment",	"vqa_base_img"	,"vqa_capfilt"	,"like_ct"	,"quote_ct"	,"retweet_ct"	,"roberta_text", "custom"],
 
           },
           mounted() {
-           // this.loadFilteredImages();
+            this.loadFilteredImages();
             this.loadParameters();
          //   this.loadParameters2();
-            this.randomPictures();
+            
+         this.randomPictures();
             this.createCheckboxes(this.items, 'checkboxContainer');
             this.concatenateInputsWithLabels('checkboxContainer');
           },
@@ -304,7 +320,7 @@
             // TODO Hier werden die HMTL-Selects ausgelesen und die Verzeichnisse dementsprechend abgeändert
             async loadParameters() {
               try {
-
+              console.log("PIC STRING",this.images[this.currentIndex])
               let pic_string = 'pic_name='+this.images[this.currentIndex].slice(7) 
               let response =  await fetch('http://localhost:5001/params?'+pic_string);
               console.log("response",response);
@@ -360,7 +376,11 @@
                   }
                 } 
               );*/
-                    this.parameters = data;
+                    let tabledict ={};
+                    for (let i = 0; i < this.items.length; i++) {
+                    tabledict[this.items[i]] = data[i];
+                    }
+                    this.parameters = tabledict;
               } catch (error) {
                 console.error('Error loading parameters:', error);
               }
@@ -488,8 +508,14 @@
 
             async loadFilteredImages() {
               let result = await this.concatenateInputsWithLabels("checkboxContainer");
+              const dropdown = document.getElementById("myDropdown");
+              const selectedValue = dropdown.value;
+              this.model_options=selectedValue;  
+              
+              result = result+'&input='+selectedValue;
               console.log("GET URL APPENDIX",result);
               
+            // Get the selected value
               let response =  await fetch('http://localhost:5001/search?'+result);
               console.log("response",response);
 
