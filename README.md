@@ -19,6 +19,10 @@ flask run --port=5001
 
 to keep job running after you disconnect your ssh session, use screen command
 
+then also start port tunnel for backend on your computer with command
+ssh -L 5001:localhost:5001 username@wifo5-33.informatik.uni-mannheim.de
+
+
 # Documentation
 The Backend revcieves a http request args for the columns and search words to be filtered.
 
