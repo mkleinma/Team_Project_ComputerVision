@@ -1,6 +1,16 @@
 .venv
 climatevisions_2019.h5
 .DS_Store
+
+/dataset/*
+/node_modules/*
+/GUI/node_modules/*
+
+
+assessment/sentiment-analysis/results/errors/*
+assessment/sentiment-analysis/results/responses_randomSubset.csv
+assessment/sentiment-analysis/results/responses_randomSubset.json
+
 /dataset/
 yolov8n.onnx
 yolov8n.pt
@@ -15,3 +25,4 @@ runs/detect/train/labels.jpg
 runs/detect/train/events.out.tfevents.1714811275.DESKTOP-U6B4CK0.24224.0
 climatevisions_2019_popular_results.h5
 results.xlsx
+
