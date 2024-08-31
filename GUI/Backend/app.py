@@ -11,16 +11,16 @@ app.config.from_object(__name__)
 CORS(app, resources={r'/*': {'origins': '*'}})
 
 #loading basic dataset
-input_file = "parameters.xlsx"  # Name der Eingabedatei
-df = pd.read_excel(input_file)
+input_file = "merged_results_5000.xlsx"  # Name der Eingabedatei
+df5k = pd.read_excel(input_file)
 #df_filtered = pd.DataFrame()
 
 #loading optional 10k dataset
-input_file10k= "parameters.xlsx"
+input_file10k= "merged_results_10000.xlsx"
 df10k = pd.read_excel(input_file10k)
 
 #loading optional 10k random dataset
-input_file10kr= "parameters.xlsx"
+input_file10kr= "result_randomdataset_2_dino.xlsx"
 df10kr  = pd.read_excel(input_file10kr)
 
 # sanity check route
@@ -28,6 +28,8 @@ df10kr  = pd.read_excel(input_file10kr)
 def filter_func():
 
     global df_filtered
+    global df5k
+    global df10k
     global df
 
     #if general filter, apply it 
@@ -55,11 +57,13 @@ def filter_func():
     input = ()
     input = request.args.get('input')
     print("recieved input request for file", input)
-    if input==['5k']:
-        df=df
+    if input=='5k':
+        df=df5k
+        print("changed df to", input ,"successfully")
 
-    elif input==['10k']:
+    elif input=='10k':
         df=df10k
+        print("changed df to", input ,"successfully")
 
     elif input==['10kr']:
         df=df10kr
