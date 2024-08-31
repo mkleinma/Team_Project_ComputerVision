@@ -206,18 +206,20 @@
       <div class="bilder"></div>
       -->
       <h3>{{this.images.length}} pictures found</h3> 
+      <p>Current active dataset: {{this.model_options}}</p><br>
       <div class="space-x-6">
         <div id="checkboxContainer"></div>
         <div style="text-align: center;">
       <button @click="loadFilteredImages">Apply Filters</button>
-      <p>Current active dataset: {{this.model_options}}</p><br>
           <h3>Select </h3>
       
           <!-- Dropdown field -->
           <select id="myDropdown" >
               <option value="5k">5k most liked</option>
               <option value="10k">10k random</option>
+              <!--  Option for further datasets
               <option value="10kr">10k random II</option>
+              --> 
           </select>
             <button @click="loadFilteredImages">Change</button>
           <div>
@@ -245,7 +247,7 @@
 
             
            // Here is the list of all columns that can be searched, while "all_content" filters all columns and "custom" hands over a parameter for custom search/aggregation 
-            items : ['image','object_detection_results',	"aisak_description",	"moondream_description",	"gemini_description","facial_emotion",	"confidence"	,"gemini_img_sentiment"	,"lens_t5_img_sentiment",	"vqa_base_img"	,"vqa_capfilt"	,"like_ct"	,"quote_ct"	,"retweet_ct"	,"roberta_text", "custom"],
+            items : ['image','text','object_detection','aisak','moondream_desc','gemini_desc','facial_emo','text_sim_sem','text_sim_sem_expr','labels','gemini_img_sent','moondream_img_sent','lens_t5_img_sent','vqa_base_img_sent','vqa_capfilt_img_sent','roberta_text_sent','like_ct','quote_ct','retweet_ct', 'custom']
           // list to display output in tabular on page
 
             //itemstab : ['image','object_detection_results',	"aisak_description",	"moondream_description",	"gemini_description","facial_emotion",	"confidence"	,"gemini_img_sentiment"	,"lens_t5_img_sentiment",	"vqa_base_img"	,"vqa_capfilt"	,"like_ct"	,"quote_ct"	,"retweet_ct"	,"roberta_text", "custom"],
@@ -479,7 +481,7 @@
 
 
             async randomPictures() {
-              this.loadFilteredTreshImages;
+              this.loadFilteredImages;
               // TODO Bugfixing here
 
               //  This part is optional if imported from csv  
