@@ -1,89 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>GUI Image Viewer</title>
-  <script src="https://cdn.jsdelivr.net/npm/vue@2"></script>
-  <style>
-    #app {
-      text-align: center;
-    }
-
-    .image-container {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      flex-wrap: wrap;
-      margin-bottom: 20px;
-    }
-
-    img {
-      max-width: 80%;
-      max-height: 80vh;
-      margin-right: 10px;
-      margin-bottom: 10px;
-      cursor: pointer;
-    }
-
-    .preview-image {
-      max-width: 100px;
-      max-height: 100px;
-      margin-right: 5px;
-      margin-bottom: 5px;
-      cursor: pointer;
-    }
-
-    table {
-      margin: 0 auto;
-      border-collapse: collapse;
-      width: 90%;
-      margin-bottom: 20px;
-    }
-
-    th,
-    td {
-      border: 1px solid #ddd;
-      padding: 8px;
-      text-align: left;
-    }
-
-    th {
-      background-color: #f2f2f2;
-    }
-
-    select {
-      margin: 0 auto;
-      border-collapse: collapse;
-      width: 30%;
-      margin-bottom: 20px;
-    }
-
-    buttons {
-      margin: 0 auto;
-      margin-bottom: 40px;
-      height: 600px;
-      width: 200px;
-    }
-
-    h2 {
-      text-align: center;
-    }
-
-    h1 {
-      text-align: center;
-    }
-    top-part{
-      justify-content: center;
-      align-items: center;
-    }
-  </style>
-</head>
-
-<body>
-  <div style="text-align: center;">
-    <h1>Image GUI</h1>
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>GUI</title>
+      <script src="https://cdn.jsdelivr.net/npm/vue@2"></script>
+      <!-- Bootstrap CSS CDN -->
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+      <!-- Our Custom CSS -->
+      <link rel="stylesheet" href="styles.css">
+      <!-- Font Awesome JS -->
+      <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js" integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ" crossorigin="anonymous"></script>
+      <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js" integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY" crossorigin="anonymous"></script>
+  </head>
+  
+  <body>
+    <div class="sidebar">
+      <a href="home.html">Home</a>
+      <a href="index.html">Analysis</a>
+      <a href="faq.html">FAQ</a>
+      <a href="about.html">About</a>
+    </div>
+  
+    <div class="content">
+      <div style="text-align: center;">
+        <h1>Image GUI</h1>
 
     <!-- Dropdown field -->
     <div>
@@ -183,43 +125,42 @@
     </table> -->
     <div id="buttons">
       <button @click="prevImage">Previous</button>
-      <button @click="nextImage">Next</button><br><br>
-      <button @click="randomPictures">Random Pictures</button>
-
+      <button @click="nextImage">Next</button>
+      <br><br>
+      <button @click="randomPictures" title="Generates a subset of random tweets of the selected dataset">Random Tweets</button>
     </div>
+
     <div> </div>
     <div>
       
     
-<h3>Filter individually:</h3>
-       <!--     
-      <h4 >Filter object detection</h4><input type="text" id="objbox" name="array[]"
-        placeholder="Suchbegriff eingeben">
-      <button @click="loadFilteredTreshImages">Apply Filter</button>
-      <h2>
-    
-        <h2>confidence treshold</h2><input type="text" id="lowertresh" name="[]"
-        placeholder="larger than"><input type="text" id="highertresh" name="array[]"
-        placeholder="below">
-      <button @click="loadFilteredTreshImages">Apply Treshold + Filter</button>
+        <h3>Filter individually:</h3>
+        <!--     
+        <h4 >Filter object detection</h4><input type="text" id="objbox" name="array[]"
+          placeholder="Suchbegriff eingeben">
+        <button @click="loadFilteredTreshImages">Apply Filter</button>
+        <h2>
+      
+          <h2>confidence treshold</h2><input type="text" id="lowertresh" name="[]"
+          placeholder="larger than"><input type="text" id="highertresh" name="array[]"
+          placeholder="below">
+        <button @click="loadFilteredTreshImages">Apply Treshold + Filter</button>
 
       <div class="bilder"></div>
       -->
-      <h3>{{this.images.length}} pictures found</h3> 
-      <p>Current active dataset: {{this.model_options}}</p><br>
+      <h3>{{this.images.length}} tweets found</h3> 
       <div class="space-x-6">
         <div id="checkboxContainer"></div>
         <div style="text-align: center;">
       <button @click="loadFilteredImages">Apply Filters</button>
+      <p>Current active dataset: {{this.model_options}}</p><br>
           <h3>Select </h3>
       
           <!-- Dropdown field -->
           <select id="myDropdown" >
-              <option value="5k">5k most liked</option>
-              <option value="10k">10k random</option>
-              <!--  Option for further datasets
-              <option value="10kr">10k random II</option>
-              --> 
+              <option value="5k">5k Most Liked</option>
+              <option value="10k">10k Random I</option>
+              <option value="10kr">10k Random II</option>
           </select>
             <button @click="loadFilteredImages">Change</button>
           <div>
@@ -640,6 +581,5 @@
           }
         });
       </script>
-</body>
-
+  </body>
 </html>
