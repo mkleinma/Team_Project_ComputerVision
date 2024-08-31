@@ -10,3 +10,5 @@ The structure is as follows:
 - folder 'model_testing' includes model explorations for 'Analysis and Extraction of Image Content'
 - folder 'noun_result_files' contains all files used for analysis of noun counts from the given captions 
 - folder 'pipeline' contains our Pipeline which gives our result excel files that has all results from the data using our best performing models for certain tasks
+___________________________________________________________________________________________________________________________________________________________
+We also have a separate branch for the GUI.
